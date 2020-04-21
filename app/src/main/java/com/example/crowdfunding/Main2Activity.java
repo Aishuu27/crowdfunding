@@ -12,7 +12,7 @@ public class Main2Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.user_login);
         t1=findViewById(R.id.phone);
         t2=findViewById(R.id.password);
     }
@@ -20,7 +20,7 @@ public class Main2Activity extends AppCompatActivity {
         username=t1.getText().toString();
         password=t2.getText().toString();
         if((username.equals("8762216798")&& password.equals("abc"))||(username.equals("9740855985")&&password.equals("suraj123"))||(username.equals("8884110104")&& password.equals("sonu123"))){
-            Intent i= new Intent(Main2Activity.this,Main3Activity.class);
+            Intent i= new Intent(Main2Activity.this, After_login.class);
             startActivity(i);
         }
         else{

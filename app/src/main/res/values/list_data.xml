@@ -1,2 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string-array name="vegetable_name">
+    <item>Potato</item>
+    <item>Tomato</item>
+    <item>Onion</item>
+    <item>Carrot</item>
+    <item>Beans</item>
+    <item>Brinjal</item>
+    <item>Cucumber</item>
+    <item>Raddish</item>
+    <item>Spinach</item>
+    <item>Coriender Leaves</item>
+    <item>BeetRoot</item>
+    <item>Chillies</item>
+    <item>Ladys Finger</item>
+    </string-array>
+</resources>
