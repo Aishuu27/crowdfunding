@@ -13,15 +13,15 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.crowdfunding.R;
 
-class My_adapter extends RecyclerView.Adapter<My_adapter.MyViewHolder> {
+class My_Adapter extends RecyclerView.Adapter<My_Adapter.MyViewHolder> {
 
     Context c;
     String data1[];
     int images[];
-    public int quantity;
+
     String text;
 
-    public My_adapter(Context c,String st1[], int image[]) {
+    public My_Adapter(Context c,String st1[], int image[]) {
         this.c=c;
         data1 = st1;
         images = image;
@@ -36,7 +36,7 @@ class My_adapter extends RecyclerView.Adapter<My_adapter.MyViewHolder> {
 
     @Override
     public void onBindViewHolder(@NonNull final MyViewHolder holder, final int position) {
-
+        final int[] quantity = {0};
         holder.title.setText(data1[position]);
         holder.image.setImageResource(images[position]);
         holder.t1.setText("0 kg");
@@ -44,22 +44,22 @@ class My_adapter extends RecyclerView.Adapter<My_adapter.MyViewHolder> {
 
             @Override
                 public void onClick(View view) {
-                    quantity = quantity + 1;
-                    text = quantity + "kg";
+                    quantity[0] = quantity[0] + 1;
+                    text = quantity[0] + "kg";
                     holder.t1.setText(text);
                 }
             });
         holder.button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(quantity==0){
-                    quantity=0;
-                    text = quantity + "kg";
+                if(quantity[0] ==0){
+                    quantity[0] =0;
+                    text = quantity[0] + "kg";
                     holder.t1.setText(text);
                 }
                 else {
-                    quantity = quantity - 1;
-                    text = quantity + "kg";
+                    quantity[0] = quantity[0] - 1;
+                    text = quantity[0] + "kg";
                     holder.t1.setText(text);
                 }
 

@@ -37,7 +37,7 @@ public class CartFragment extends Fragment {
         RecyclerView.LayoutManager layoutmanager=new LinearLayoutManager(getActivity());
         recyclerview.setLayoutManager(layoutmanager);
 
-        My_adapter myadapter = new My_adapter(getActivity(),st1,image);
+        My_Adapter myadapter = new My_Adapter(getActivity(),st1,image);
         recyclerview.setAdapter(myadapter);
 
         return view;
