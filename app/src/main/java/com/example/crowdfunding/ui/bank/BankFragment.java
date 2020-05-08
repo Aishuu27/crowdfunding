@@ -12,7 +12,6 @@ import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import com.example.crowdfunding.R;
-import com.example.crowdfunding.ui.sendmoney.SendMoney;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 

@@ -66,7 +66,7 @@ public class AfterSplash extends AppCompatActivity {
                     startActivity(intent);
                 }
                 else if(role.equalsIgnoreCase("Co-Operative society")&& lan.equalsIgnoreCase("englis")){
-                    Intent intent=new Intent(AfterSplash.this,Cooperative_Society.class);
+                    Intent intent=new Intent(AfterSplash.this,Cooperative_Society.class );
                     startActivity(intent);
                 }
                 else{

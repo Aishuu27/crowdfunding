@@ -39,7 +39,7 @@ public class After_farmer_login extends AppCompatActivity {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_cropinfo, R.id.nav_insurance,R.id.nav_policies,R.id.nav_helpforum,R.id.nav_about,R.id.nav_dashboard,R.id.nav_farmer_logout)
+                R.id.nav_home, R.id.nav_cropinfo, R.id.nav_insurance,R.id.nav_policies,R.id.nav_helpforum,R.id.nav_about,R.id.nav_setting,R.id.nav_farmer_logout)
                 .setDrawerLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
