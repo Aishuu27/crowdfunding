@@ -4,13 +4,9 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModelProviders;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -21,9 +17,9 @@ public class HomeFragment extends Fragment {
     private RecyclerView recyclerview;
     private String sname[]={"National Mission For Sustainable Agriculture (NMSA)","Pradhan Mantri Krishi Sinchai Yojana (PMKSY)","Paramparagat Krishi Vikas Yojana (PKVY)",
     "Pradhan Mantri Fasal Bima Yojana (PMFBY)","Gramin Bhandaran Yojna","Livestock insurance Scheme","Scheme on Fisheries Training and Extension",
-    "National Scheme on Welfare of Fishermen","Micro Irrigation Fund (MIF"};
+    "National Scheme on Welfare of Fishermen","Micro Irrigation Fund (MIF)"};
 
-    private String sdesc[]={"National Mission for Sustainable Agriculture (NMSA) has been formulated for enhancing agricultural productivity especially in rainfed areas focusing on integrated farming, water use efficiency, soil health management and synergizing resource conservation.",
+    private String sdesc[]={"National Mission for Sustainable Agriculture (NMSA) has been formulated for enhancing agricultural productivity especially in rainfed areas focusing on integrated farming, water use efficiency, soil health management and synergizing resource conservation........",
     "Har Khet ko Pani Prime Minister Krishi Sinchayee Yojana Government of India is committed to accord high priority to water conservation and its management. To this effect Pradhan Mantri Krishi Sinchayee Yojana (PMKSY) has been formulated with the vision of extending the coverage of irrigation 'Har Khet ko pani' and improving water use efficiency 'More crop per drop' in a focused manner with end to end solution on various activities.",
     "The Paramparagat Krishi Vikas Yojana (PKVY), an initiative to promote organic farming in the country, was launched by the NDA government in 2015.According to the scheme, farmers will be encouraged to form groups or clusters and take to organic farming methods over large areas in the country.",
     "Pradhan Mantri Fasal Bima Yojana (PMFBY) is the government sponsored crop insurance scheme that integrates multiple stakeholders on a single platform.",
@@ -35,17 +31,25 @@ public class HomeFragment extends Fragment {
 
     //int[] simage ={R.mipmap.logo_round};
 
+    private String surl[]={"https://vikaspedia.in/agriculture/policies-and-schemes/crops-related/krishi-unnati-yojana/national-mission-for-sustainable-agriculture-1/national-mission-for-sustainable-agriculture",
+    "https://pmksy.gov.in/","https://pgsindia-ncof.gov.in/pkvy/index.aspx","https://pmfby.gov.in/","https://pib.gov.in/newsite/mberel.aspx?relid=96201","https://vikaspedia.in/agriculture/agri-insurance/livestock-insurance",
+            "http://dahd.nic.in/related-links/centrally-sponsored-scheme-fisheries-training-and-extension","http://dahd.nic.in/related-links/centrally-sponsored-national-scheme-welfare-fishermen",
+            "https://www.manifestias.com/2019/10/15/micro-irrigation-fund-mif/"};
+
+
+
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
 
-        View root = inflater.inflate(R.layout.fragment_home, container, false);
+        View root = inflater.inflate(R.layout.fragment_scheme, container, false);
 
         recyclerview =  (RecyclerView) root.findViewById(R.id.scheme_view);
 
         RecyclerView.LayoutManager layoutmanager=new LinearLayoutManager(getActivity());
         recyclerview.setLayoutManager(layoutmanager);
 
-        MyAdapter myadapter = new MyAdapter(getActivity(),sname,sdesc);
+
+        MyAdapter myadapter = new MyAdapter(getActivity(),sname,sdesc,surl);
         recyclerview.setAdapter(myadapter);
 
 

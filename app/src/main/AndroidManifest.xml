@@ -10,12 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".After_farmer_login"
+            android:label="@string/title_activity_after_farmer_login"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Cooperative_Society" />
+        <activity android:name=".Framer_login" />
+        <activity android:name=".AfterSplash" />
+        <activity
             android:name=".After_login"
             android:label="@string/title_activity_after_login"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".RegisterActivity" />
-        <activity android:name=".Main2Activity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

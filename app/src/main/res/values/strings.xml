@@ -15,4 +15,30 @@
     <string name="menu_setting">Settings</string>
     <string name="menu_logout">Logout</string>
 
+    <string-array name="Role">
+        <item>Choose Role</item>
+        <item>Co-Operative society</item>
+        <item>Farmer</item>
+        <item>Funder</item>
+    </string-array>
+
+    <string-array name="Language">
+        <item>Choose Language</item>
+        <item>English</item>
+        <item>Kannada</item>
+        <item>Hindi</item>
+    </string-array>
+
+    <string name="title_activity_after_farmer_login">After_farmer_login</string>
+    <string name="menu_farmer_home">Home</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_crop_info">Crop Information</string>
+    <string name="menu_insurance">Insurance</string>
+    <string name="menu_policies">Policies</string>
+    <string name="menu_helpforum">Help Forum</string>
+    <string name="menu_farmer_about">About</string>
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="menu_farmer_logout">Logout</string>
+
+
 </resources>

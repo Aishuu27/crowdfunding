@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_farmer_home"
+            android:icon="@drawable/home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_cropinfo"
+            android:icon="@drawable/crop_info"
+            android:title="Crop Information" />
+        <item
+            android:id="@+id/nav_insurance"
+            android:icon="@drawable/home"
+            android:title="Insurance" />
+        <item
+            android:id="@+id/nav_policies"
+            android:icon="@drawable/home"
+            android:title="@string/menu_policies" />
+        <item
+            android:id="@+id/nav_helpforum"
+            android:icon="@drawable/home"
+            android:title="@string/menu_helpforum" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/about"
+            android:title="@string/menu_about" />
+
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/settings"
+            android:title="@string/menu_dashboard" />
+        <item
+            android:id="@+id/nav_farmer_logout"
+            android:icon="@drawable/log_out"
+            android:title="@string/menu_logout" />
+
+    </group>
+</menu>

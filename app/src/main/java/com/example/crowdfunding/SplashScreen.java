@@ -3,7 +3,7 @@ import android.content.Intent;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.os.Handler;
-public class MainActivity extends AppCompatActivity {
+public class SplashScreen extends AppCompatActivity {
     private static int SPLASH_TIME_OUT=5000;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent i = new Intent(MainActivity.this, Main2Activity.class);
+                Intent i = new Intent(SplashScreen.this, AfterSplash.class);
                 startActivity(i);
                 finish();
             }
