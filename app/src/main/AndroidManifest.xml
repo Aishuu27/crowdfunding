@@ -9,10 +9,11 @@
         android:roundIcon="@mipmap/logo_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Cooperative_schemes"></activity>
         <activity
             android:name=".After_farmer_login"
             android:label="@string/title_activity_after_farmer_login"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Cooperative_Society" />
         <activity android:name=".Framer_login" />
         <activity android:name=".AfterSplash" />

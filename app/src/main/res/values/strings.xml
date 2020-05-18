@@ -43,14 +43,11 @@
         For any queries related to Kisaan Rakshak "\n" Application,"\n"
     Kindly Contact:
     </string>
+
     <string name="help_contacts">Number1"\n"
     Number2"\n"
     Number3"\n"
     Number4</string>
-    <string name="title_farmerdetails">Farmer_details</string>
-    <string name="title_insurance">Insurance</string>
-    <string name="title_register">Register</string>
-    <string name="title_scheme">Scheme</string>
-    <string name="title_cropdetails">Crop_details</string>
+
 
 </resources>
