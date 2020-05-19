@@ -2,6 +2,7 @@ package com.example.crowdfunding;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -22,10 +23,17 @@ public class Cooperative_Society extends AppCompatActivity {
         scheme_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent i=new Intent(Cooperative_Society.this,Cooperative_schemes.class);
+                startActivity(i);
+            }
+        });
 
+        insurance_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                    Intent insurance_intent=new Intent(Cooperative_Society.this,Cooperative_insurance.class);
+                    startActivity(insurance_intent);
             }
         });
     }
-    
-
 }

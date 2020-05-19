@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/logo_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Cooperative_schemes"></activity>
+        <activity android:name=".Cooperative_insurance"></activity>
+        <activity android:name=".Cooperative_schemes" />
         <activity
             android:name=".After_farmer_login"
             android:label="@string/title_activity_after_farmer_login"
