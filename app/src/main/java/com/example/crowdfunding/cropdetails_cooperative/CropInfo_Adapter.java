@@ -27,7 +27,7 @@ public class CropInfo_Adapter extends RecyclerView.Adapter< CropInfo_Adapter.MyV
     public CropInfo_Adapter.MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         LayoutInflater inflater = LayoutInflater.from(context);
         View v = inflater.inflate(R.layout.cropinfo_row, parent, false);
-        return null;
+       return new MyViewHolder(v);
     }
 
     @Override
