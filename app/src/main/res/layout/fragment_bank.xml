@@ -8,8 +8,4 @@
     android:layout_height="match_parent"
     tools:context=".ui.bank.BankFragment">
 
-
-
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
