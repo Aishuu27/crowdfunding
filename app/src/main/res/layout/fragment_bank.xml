@@ -6,6 +6,50 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#cfff95"
     tools:context=".ui.bank.BankFragment">
+
+    <Button
+        android:layout_width="159dp"
+        android:layout_height="169dp"
+        android:background="@drawable/rounded_button"
+        android:drawableRight="@drawable/send_money"
+        android:text="Send Money"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.311" />
+
+    <Button
+        android:layout_width="162dp"
+        android:layout_height="165dp"
+        android:background="@drawable/rounded_button"
+        android:drawableRight="@drawable/add_account"
+        android:text="Add Bank Account"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.935"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.309" />
+
+    <Button
+        android:layout_width="156dp"
+        android:layout_height="161dp"
+        android:background="@drawable/rounded_button"
+        android:drawableRight="@drawable/balance"
+        android:text="Check Balance"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.541"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.764" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
