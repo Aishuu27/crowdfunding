@@ -3,6 +3,7 @@ package com.example.crowdfunding;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.view.View;
 import android.os.Bundle;
@@ -41,12 +42,14 @@ public class RegisterActivity extends AppCompatActivity {
              String password_string=password.getText().toString();
              repass=reenter_password.getText().toString();
 
-             SharedPreferences.Editor editor=sharedpreferences.edit();
+            /* SharedPreferences.Editor editor=sharedpreferences.edit();
              editor.putString(Phone,phone_string);
-             editor.putString(Password,password_string);
-             if(Password.equals(repass)){
-                  editor.commit();
+             editor.putString(Password,password_string);*/
+             if(password_string.equals(repass)){
+                  //editor.commit();
                   Toast.makeText(getApplicationContext(),"Thank you for registering",Toast.LENGTH_LONG).show();
+                  Intent i =new Intent(RegisterActivity.this,LoginActivity.class);
+                  startActivity(i);
               }
               else{
                   Toast.makeText(getApplicationContext(),"Password do not match",Toast.LENGTH_LONG).show();

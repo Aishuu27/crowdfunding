@@ -22,20 +22,6 @@
         app:layout_constraintVertical_bias="0.094" />
 
     <Button
-        android:id="@+id/button_scheme"
-        android:layout_width="139dp"
-        android:layout_height="120dp"
-        android:background="@drawable/rounded_button"
-        android:drawableRight="@drawable/schemes_cooperative"
-        android:text="Schemes"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.147"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.322" />
-
-    <Button
         android:id="@+id/insurance_button"
         android:layout_width="125dp"
         android:layout_height="116dp"
@@ -44,10 +30,10 @@
         android:text="@string/menu_insurance"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.542"
-        app:layout_constraintStart_toEndOf="@+id/button_scheme"
+        app:layout_constraintHorizontal_bias="0.811"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.32" />
+        app:layout_constraintVertical_bias="0.331" />
 
     <Button
         android:id="@+id/farmer_button"
@@ -58,10 +44,10 @@
         android:text="Farmer Details"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.162"
+        app:layout_constraintHorizontal_bias="0.202"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_scheme"
-        app:layout_constraintVertical_bias="0.114" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.552" />
 
     <Button
         android:id="@+id/crop_details"
@@ -72,23 +58,38 @@
         android:text="Crop Details"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.557"
+        app:layout_constraintHorizontal_bias="0.546"
         app:layout_constraintStart_toEndOf="@+id/farmer_button"
         app:layout_constraintTop_toBottomOf="@+id/insurance_button"
-        app:layout_constraintVertical_bias="0.131" />
+        app:layout_constraintVertical_bias="0.026" />
 
     <Button
         android:id="@+id/register_farmer"
-        android:layout_width="161dp"
-        android:layout_height="109dp"
+        android:layout_width="146dp"
+        android:layout_height="98dp"
         android:background="@drawable/rounded_button"
         android:drawableRight="@drawable/register"
         android:text="Register Farmer"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.547"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.836" />
+        app:layout_constraintVertical_bias="0.777" />
+
+    <Button
+        android:id="@+id/button_scheme"
+        android:layout_width="130dp"
+        android:layout_height="103dp"
+        android:background="@drawable/rounded_button"
+        android:drawableRight="@drawable/schemes_cooperative"
+        android:text="Schemes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.199"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.345" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
