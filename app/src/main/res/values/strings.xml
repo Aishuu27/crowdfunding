@@ -28,6 +28,11 @@
         <item>Kannada</item>
         <item>Hindi</item>
     </string-array>
+    <string-array name="CropType">
+        <item>Choose Crop Type</item>
+        <item>Kharif Crop</item>
+        <item>Rabi Crop</item>
+    </string-array>
 
     <string name="title_activity_after_farmer_login">After_farmer_login</string>
     <string name="menu_farmer_home">Home</string>
