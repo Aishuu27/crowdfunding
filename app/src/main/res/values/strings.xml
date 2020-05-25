@@ -1,4 +1,6 @@
 <resources>
+
+
     <string name="app_name">crowdfunding</string>
     <string name="title_activity_after_login">after_login</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -8,12 +10,16 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_search">Search</string>
 
+
+
     <string name="menu_home">Home</string>
     <string name="menu_bank">Banking</string>
     <string name="menu_cart">Place Order</string>
     <string name="menu_about">About</string>
     <string name="menu_setting">Settings</string>
     <string name="menu_logout">Logout</string>
+
+
 
     <string-array name="Role">
         <item>Choose Role</item>
@@ -36,6 +42,7 @@
 
     <string name="title_activity_after_farmer_login">After_farmer_login</string>
     <string name="menu_farmer_home">Home</string>
+    <string name="menu_farmer_banking">Banking</string>
     <string name="action_settings">Settings</string>
     <string name="menu_cropinfo">Crop Information</string>
     <string name="menu_insurance">Insurance</string>
@@ -54,5 +61,39 @@
     Number3"\n"
     Number4</string>
 
+    <string name="user_phone_number">Enter Phone Number</string>
+    <string name="user_login_heading">USER LOGIN</string>
+    <string name="user_password">Password</string>
+    <string name="login_button">Login</string>
+    <string name="new_user_button">New User?</string>
+
+    <string name="farmer_phone_number">Enter Phone Number</string>
+    <string name="farmer_login_heading">USER LOGIN</string>
+    <string name="farmer_password">Password</string>
+    <string name="farmer_login_button">Login</string>
+
+    <string-array name="schemes">
+        <item name="scheme1">National Mission For Sustainable Agriculture (NMSA)</item>
+        <item>Pradhan Mantri Krishi Sinchai Yojana (PMKSY)</item>
+        <item>Paramparagat Krishi Vikas Yojana (PKVY)</item>
+        <item>Pradhan Mantri Fasal Bima Yojana (PMFBY)</item>
+        <item>Gramin Bhandaran Yojna</item>
+        <item>Livestock insurance Scheme</item>
+        <item>Scheme on Fisheries Training and Extension</item>
+        <item>National Scheme on Welfare of Fishermen</item>
+        <item>Micro Irrigation Fund (MIF)</item>
+    </string-array>
+
+    <string-array name="schemes_description">
+        <item>National Mission for Sustainable Agriculture (NMSA) has been formulated for enhancing agricultural productivity especially in rainfed areas focusing on integrated farming, water use efficiency, soil health management and synergizing resource conservation</item>
+        <item>Har Khet ko Pani Prime Minister Krishi Sinchayee Yojana Government of India is committed to accord high priority to water conservation and its management. To this effect Pradhan Mantri Krishi Sinchayee Yojana (PMKSY) has been formulated with the vision of extending the coverage of irrigation 'Har Khet ko pani' and improving water use efficiency 'More crop per drop' in a focused manner with end to end solution on various activities.</item>
+        <item>The Paramparagat Krishi Vikas Yojana (PKVY), an initiative to promote organic farming in the country, was launched by the NDA government in 2015.According to the scheme, farmers will be encouraged to form groups or clusters and take to organic farming methods over large areas in the country.</item>
+        <item>Pradhan Mantri Fasal Bima Yojana (PMFBY) is the government sponsored crop insurance scheme that integrates multiple stakeholders on a single platform.</item>
+        <item>Create scientific storage capacity with allied facilities in rural areas.</item>
+        <item>This scheme aims to provide protection mechanism to the farmers and cattle rearers against any eventual loss of their animals due to death and to demonstrate the benefit of the insurance of livestock to the people and popularize it with the ultimate goal of attaining qualitative improvement in livestock and their products.</item>
+        <item>It was launched to provide training for fishery sector so as to assist in undertaking fisheries extension programmes effectively.</item>
+        <item>This scheme was launched to provide financial assistance to fishers for construction of house, community hall for recreation and common working place. It also aims to install tube-wells for drinking water and assistance during lean period through saving cum relief component.</item>
+        <item>The government approved a dedicated Rs5,000 crore fund to bring more land area under micro-irrigation as part of its objective to boost agriculture production and farmers income.The fund has been set up under NABARD, which will provide this amount to states on concessional rate of interest to promote micro-irrigation, which currently has a coverage of only 10 million hectares as against the potential of 70 million hectares.</item>
+    </string-array>
 
 </resources>

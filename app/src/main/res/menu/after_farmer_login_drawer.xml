@@ -11,16 +11,15 @@
         <item
             android:id="@+id/nav_bank"
             android:icon="@drawable/add_account"
-            android:title="Banking"
-            />
+            android:title="@string/menu_farmer_banking" />
         <item
             android:id="@+id/nav_cropinfo"
             android:icon="@drawable/about"
-            android:title="Crop Information" />
+            android:title="@string/menu_cropinfo" />
         <item
             android:id="@+id/nav_insurance"
             android:icon="@drawable/home"
-            android:title="Insurance" />
+            android:title="@string/menu_insurance" />
         <item
             android:id="@+id/nav_policies"
             android:icon="@drawable/home"

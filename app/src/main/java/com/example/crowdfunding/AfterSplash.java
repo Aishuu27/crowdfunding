@@ -3,6 +3,7 @@ package com.example.crowdfunding;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -11,9 +12,11 @@ import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import java.util.Locale;
+
 public class AfterSplash extends AppCompatActivity {
 
-    String  role,lan;
+   public String  role,lan;
     Button submit;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,6 +48,21 @@ public class AfterSplash extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                 lan=adapterView.getItemAtPosition(i).toString();
+                String languageToLoad = null;
+                if(lan.equalsIgnoreCase("kannada")){
+                    languageToLoad="kn";
+                }
+                else if(lan.equals("English")){
+                    languageToLoad="en";
+                }
+                if(languageToLoad!=null) {
+                    Locale locale = new Locale(languageToLoad);
+                    Locale.setDefault(locale);
+                    Configuration config = new Configuration();
+                    config.locale = locale;
+                    getBaseContext().getResources().updateConfiguration(config,
+                            getBaseContext().getResources().getDisplayMetrics());
+                }
             }
 
             @Override
@@ -57,15 +75,15 @@ public class AfterSplash extends AppCompatActivity {
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(role.equalsIgnoreCase("funder") && lan.equalsIgnoreCase("english")){
+                if(role.equalsIgnoreCase("funder")){
                     Intent intent= new Intent(AfterSplash.this,LoginActivity.class);
                     startActivity(intent);
                 }
-                else if(role.equalsIgnoreCase("farmer")&& lan.equalsIgnoreCase("english")){
+                else if(role.equalsIgnoreCase("farmer")){
                     Intent intent =new Intent(AfterSplash.this,Framer_login.class);
                     startActivity(intent);
                 }
-                else if(role.equalsIgnoreCase("Co-Operative society")&& lan.equalsIgnoreCase("english")){
+                else if(role.equalsIgnoreCase("Co-Operative society")){
                     Intent intent=new Intent(AfterSplash.this,Cooperative_Society.class );
                     startActivity(intent);
                 }

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="user_phone_number">ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="user_login_heading">ಬಳಕೆದಾರ ಲಾಗಿನ್</string>
+    <string name="user_password">ಗುಪ್ತಪದ</string>
+    <string name="login_button">ಲಾಗಿನ್ ಮಾಡಿ</string>
+    <string name="new_user_button">ಹೊಸ ಬಳಕೆದಾರ?</string>
+
+    <string name="farmer_phone_number">ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="farmer_login_heading">ಬಳಕೆದಾರ ಲಾಗಿನ್</string>
+    <string name="farmer_password">ಗುಪ್ತಪದ</string>
+    <string name="farmer_login_button">ಲಾಗಿನ್ ಮಾಡಿ</string>
+
+    <string name="app_name">crowdfunding</string>
+    <string name="title_activity_after_login">after_login</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_search">Search</string>
+
+    <string name="menu_home">ಮುಖಪುಟ</string>
+    <string name="menu_bank">ಬ್ಯಾಂಕಿಂಗ್</string>
+    <string name="menu_cart">Place Order</string>
+    <string name="menu_about">ಬಗ್ಗೆ</string>
+    <string name="menu_setting">ಸಂಯೋಜನೆಗಳು</string>
+    <string name="menu_logout">ಲಾಗ್ ಔಟ್</string>
+
+    <string name="title_activity_after_farmer_login">After_farmer_login</string>
+    <string name="menu_farmer_home">ಮುಖಪುಟ</string>
+    <string name="menu_farmer_banking">ಬ್ಯಾಂಕಿಂಗ್</string>
+    <string name="action_settings">ಸಂಯೋಜನೆಗಳು</string>
+    <string name="menu_cropinfo">ಬೆಳೆ ಮಾಹಿತಿ</string>
+    <string name="menu_insurance">ವಿಮೆ</string>
+    <string name="menu_policies">ನೀತಿಗಳು</string>
+    <string name="menu_helpforum">ಸಹಾಯ ವೇದಿಕೆ</string>
+    <string name="menu_farmer_about">ಬಗ್ಗೆ</string>
+    <string name="menu_dashboard">ಡಯಾಶ್‌ಬೋರ್ಡ್</string>
+    <string name="menu_farmer_logout">ಲಾಗ್ ಔಟ್</string>
+
+    <string name="help_content">We are always available for our users,"\n"
+        For any queries related to Kisaan Rakshak "\n" Application,"\n"
+    Kindly Contact:
+    </string>
+
+    <string name="help_contacts">Number1"\n"
+    Number2"\n"
+    Number3"\n"
+    Number4</string>
+
+    <string-array name="schemes">
+        <item name="scheme1">ನ್ಯಾಷನಲ್ ಮಿಷನ್ ಫಾರ್ ಸಸ್ಟೈನಬಲ್ ಅಗ್ರಿಕಲ್ಚರ್ (ಎನ್ಎಂಎಸ್ಎ)</item>
+        <item>Pradhan Mantri Krishi Sinchai Yojana (PMKSY)</item>
+        <item>Paramparagat Krishi Vikas Yojana (PKVY)</item>
+        <item>Pradhan Mantri Fasal Bima Yojana (PMFBY)</item>
+        <item>Gramin Bhandaran Yojna</item>
+        <item>Livestock insurance Scheme</item>
+        <item>Scheme on Fisheries Training and Extension</item>
+        <item>National Scheme on Welfare of Fishermen</item>
+        <item>Micro Irrigation Fund (MIF)</item>
+    </string-array>
+
+</resources>
