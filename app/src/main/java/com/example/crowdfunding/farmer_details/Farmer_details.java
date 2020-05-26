@@ -11,9 +11,10 @@ import com.example.crowdfunding.R;
 public class Farmer_details extends AppCompatActivity {
 
     RecyclerView recyclerview;
-    String st1[]={"Name","Name","Name","Name","Name","Name","Name","Name","Name"};
-    String st2[]={"Age","Age","Age","Age","Age","Age","Age","Age","Age"};
-    String st3[]={"place","place","place","place","place","place","place","place","place"};
+    String st1[]={"Ravindra Ranagnath","Dipak Vitthalrao","Ganpatrao Appasaheb ","Ajit Gopal Kavathekar","Ram Lal","Mohinder Singh"};
+    String st2[]={"47","52","45","43","52","56"};
+    String st3[]={"Chikmangaluru","Dharwad","Mandya","Belgaum","Hubli","Udupi"};
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

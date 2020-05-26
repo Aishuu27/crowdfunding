@@ -19,7 +19,7 @@ import com.example.crowdfunding.R;
 public class CartFragment extends Fragment {
 
     private RecyclerView recyclerview;
-
+    private Button PlaceOrderBtn;
     private String st1[]={"Potato","Tomato","Onion","Carrot","Beans","Brinjal","Cucumber","Raddish","Spinach","Coriender Leaves","BeetRoot","Chillies","Ladys Finger"};
     int[] image ={R.drawable.potato,R.drawable.tomato,R.drawable.onion,R.drawable.carrot,R.drawable.beans,R.drawable.brinjal,R.drawable.cucumber,R.drawable.raddish,R.drawable.spinach,R.drawable.coriender,R.drawable.beetroot,R.drawable.chillies,R.drawable.layds_finger};
 
@@ -33,12 +33,22 @@ public class CartFragment extends Fragment {
         View view=inflater.inflate(R.layout.fragment_cart,null);
 
         recyclerview =  (RecyclerView) view.findViewById(R.id.recycler_view);
+        PlaceOrderBtn = (Button) view.findViewById(R.id.place_order);
 
         RecyclerView.LayoutManager layoutmanager=new LinearLayoutManager(getActivity());
         recyclerview.setLayoutManager(layoutmanager);
 
         My_Adapter myadapter = new My_Adapter(getActivity(),st1,image);
         recyclerview.setAdapter(myadapter);
+
+        PlaceOrderBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Toast.makeText(getActivity().getApplicationContext(),
+                        "Your Order has been placed successfully!!!", Toast.LENGTH_LONG).show();
+            }
+        });
 
         return view;
     }

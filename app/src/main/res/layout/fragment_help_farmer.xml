@@ -19,6 +19,10 @@
         android:text="@string/help_content"
         android:textAlignment="center"
         android:textSize="30sp"
+
+        android:textColor="@android:color/holo_green_light"
+
+        android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -37,6 +41,10 @@
         android:textColorHighlight="@color/colorAccent"
         android:textSize="35sp"
 
+        android:textColor="@android:color/holo_green_dark"
+
+        android:textStyle="italic"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
@@ -49,6 +57,7 @@
         android:layout_marginLeft="169dp"
         android:layout_marginEnd="170dp"
         android:layout_marginRight="170dp"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3"

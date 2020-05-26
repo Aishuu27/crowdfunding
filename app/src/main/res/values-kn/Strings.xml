@@ -51,14 +51,14 @@
 
     <string-array name="schemes">
         <item name="scheme1">ನ್ಯಾಷನಲ್ ಮಿಷನ್ ಫಾರ್ ಸಸ್ಟೈನಬಲ್ ಅಗ್ರಿಕಲ್ಚರ್ (ಎನ್ಎಂಎಸ್ಎ)</item>
-        <item>Pradhan Mantri Krishi Sinchai Yojana (PMKSY)</item>
-        <item>Paramparagat Krishi Vikas Yojana (PKVY)</item>
-        <item>Pradhan Mantri Fasal Bima Yojana (PMFBY)</item>
-        <item>Gramin Bhandaran Yojna</item>
-        <item>Livestock insurance Scheme</item>
-        <item>Scheme on Fisheries Training and Extension</item>
-        <item>National Scheme on Welfare of Fishermen</item>
-        <item>Micro Irrigation Fund (MIF)</item>
+        <item name="scheme2">ಪ್ರಧಾನಮಂತ್ರಿ ಕೃಷಿ ಸಿಂಚಾಯಿ ಯೋಜನೆ(PMKSY)</item>
+        <item name="scheme3">Paramparagat Krishi Vikas Yojana (PKVY)</item>
+        <item name="scheme4">Pradhan Mantri Fasal Bima Yojana (PMFBY)</item>
+        <item name="scheme5">Gramin Bhandaran Yojna</item>
+        <item name="scheme6">Livestock insurance Scheme</item>
+        <item name="scheme7">Scheme on Fisheries Training and Extension</item>
+        <item name="scheme8">National Scheme on Welfare of Fishermen</item>
+        <item name="scheme9">Micro Irrigation Fund (MIF)</item>
     </string-array>
 
 </resources>
