@@ -19,6 +19,7 @@ public class Cooperative_schemes extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.cooperative_schemes);
+
         scheme_button=findViewById(R.id.scheme_button);
         kharif_text=findViewById(R.id.Kharif_scheme);
         Rabi_text=findViewById(R.id.Rabi_scheme);
@@ -41,11 +42,18 @@ public class Cooperative_schemes extends AppCompatActivity {
         scheme_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(crop_type.equalsIgnoreCase("Kharif")){
+
+                if(crop_type.equalsIgnoreCase("Kharif Crop")){
                     kharif_text.setVisibility(View.VISIBLE);
+                    Rabi_text.setVisibility(View.INVISIBLE);
                 }
-                else if(crop_type.equalsIgnoreCase("Rabi")){
+                else if(crop_type.equalsIgnoreCase("Rabi crop")){
                     Rabi_text.setVisibility(View.VISIBLE);
+                    kharif_text.setVisibility(View.INVISIBLE);
+                }
+                else if(crop_type.equalsIgnoreCase("Choose crop Type ")){
+                    kharif_text.setVisibility(View.INVISIBLE);
+                    Rabi_text.setVisibility(View.INVISIBLE);
                 }
                 else{
                     Toast.makeText(getApplicationContext(),"Choose correct Option",Toast.LENGTH_SHORT).show();

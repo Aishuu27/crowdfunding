@@ -1,9 +1,11 @@
 package com.example.crowdfunding.ui.cropinfofarmer;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
@@ -14,6 +16,8 @@ import com.example.crowdfunding.R;
 
 public class CropInfoFragment extends Fragment {
     private RecyclerView recyclerview;
+    private Button SellCropBtn;
+
     int[] image ={R.drawable.potato,R.drawable.tomato,R.drawable.onion,R.drawable.carrot,R.drawable.beans,R.drawable.brinjal,R.drawable.cucumber,R.drawable.raddish,R.drawable.spinach,R.drawable.coriender,R.drawable.beetroot,R.drawable.chillies,R.drawable.layds_finger};
 
 
@@ -47,7 +51,14 @@ public class CropInfoFragment extends Fragment {
 
         CropInfoAdapter myadapter = new CropInfoAdapter(getActivity(),image,sname,sdesc);
         recyclerview.setAdapter(myadapter);
-
+        SellCropBtn = (Button) root.findViewById(R.id.sell_crops);
+        SellCropBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i=new Intent(getActivity(),SellCropActivity.class);
+                startActivity(i);
+            }
+        });
 
         return root;
     }
