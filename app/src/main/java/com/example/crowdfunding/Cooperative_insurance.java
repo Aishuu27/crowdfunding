@@ -34,8 +34,6 @@ public class Cooperative_insurance extends AppCompatActivity {
         Intent imageTakeIntent=new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         startActivityForResult(imageTakeIntent,REQUEST_IMAGE_CAPTURE);
     }
-
-
     @Override
     protected void onActivityResult(int requestCode,int resultCode,Intent data ) {
 
