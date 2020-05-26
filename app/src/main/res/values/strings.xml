@@ -59,11 +59,14 @@
     Kindly Contact:
     </string>
 
-    <string name="help_contacts">Number1"\n"
-    Number2"\n"
-    Number3"\n"
-    Number4</string>
-
+    <string name="help_contacts">9513187277"\n"
+   9986641573"\n"
+   9740855985"\n"
+    8762216798</string>
+    <string name="setting_enter_name">Enter Name</string>
+    <string name="settings_phone_number">Enter Phone Number</string>
+    <string name="settings_email_id">Enter Mail Id</string>
+    <string name="edit_profile_button">Edit Profile</string>
     <string name="user_phone_number">Enter Phone Number</string>
     <string name="user_login_heading">USER LOGIN</string>
     <string name="user_password">Password</string>
@@ -85,6 +88,36 @@
         <item name="scheme7">Scheme on Fisheries Training and Extension</item>
         <item name="scheme8">National Scheme on Welfare of Fishermen</item>
         <item name="scheme9">Micro Irrigation Fund (MIF)</item>
+    </string-array>
+
+    <string name="farmer_cropinfo_button">Click the button to Sell Your Crops</string>
+    <string name="cooperative_welcome">Welcome</string>
+    <string name="farmer_details_text">Farmer Details</string>
+    <string name="crop_details_text">Crop Details</string>string>
+    <string name="register_farmer_text">Register Farmer</string>
+    <string name="cooperative_scheme_text">Schemes</string>
+    <string name="send_money">Money Transaction</string>
+    <string name="add_account">Add Bank Account</string>
+    <string name="check_balance">Check Balance</string>
+    <string name="about_description">Kissan Rakshak, an application exclusively developed for the welfare of Indian Farmers.It uses crowd Funding technique to fund farmers with money required to cultivate their crops.The Farmers are given a chance to return the borrowed amount with their yield rather than money. JAI KISSAN!!</string>
+
+
+    <string-array name="farmer_policies">
+        <item>Policy 1</item>
+        <item>Policy 2</item>
+        <item>Policy 3</item>
+        <item>Policy 4</item>
+        <item>Policy 5</item>
+        <item>Policy 6</item>
+    </string-array>
+
+    <string-array name="policy_description">
+        <item>Transactions will be completed only if the user has provided Bank Details</item>
+        <item>All the necessary documents need to be verified and updated</item>
+        <item>Requested amount will not be sanctioned if bank details or documents provided are found to be false</item>
+        <item>Proofs to be submitted for every disaster/crop failure that occured in your land</item>
+        <item>Any number of crops can be sold in a day in Sell Crop Page</item>
+        <item>Clear Description of Crops can sell your crop efficiently</item>
     </string-array>
 
 </resources>

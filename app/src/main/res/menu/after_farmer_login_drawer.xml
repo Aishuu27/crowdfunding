@@ -14,19 +14,19 @@
             android:title="@string/menu_farmer_banking" />
         <item
             android:id="@+id/nav_cropinfo"
-            android:icon="@drawable/about"
+            android:icon="@drawable/crop_details"
             android:title="@string/menu_cropinfo" />
         <item
             android:id="@+id/nav_insurance"
-            android:icon="@drawable/home"
+            android:icon="@drawable/insurance"
             android:title="@string/menu_insurance" />
         <item
             android:id="@+id/nav_policies"
-            android:icon="@drawable/home"
+            android:icon="@drawable/schemes_cooperative"
             android:title="@string/menu_policies" />
         <item
             android:id="@+id/nav_helpforum"
-            android:icon="@drawable/home"
+            android:icon="@drawable/help_icon"
             android:title="@string/menu_helpforum" />
         <item
             android:id="@+id/nav_about"

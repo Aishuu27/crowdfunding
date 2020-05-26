@@ -14,15 +14,10 @@ import com.example.crowdfunding.R;
 
 public class PoliciesFragment extends Fragment {
     private RecyclerView recyclerview;
-    private String sname[] = {"Policy 1", "Policy 2", "Policy 3",
-            "Policy 4", "Policy 5","Policy 6"};
+    private String fpolicies[] ;
 
-    private String sdesc[] = {"Transactions will be completed only if the user has provided Bank Details",
-            "All the necessary documents need to be verified and updated",
-            "Requested amount will not be sanctioned if bank details or documents provided are found to be false",
-            "Proofs to be submitted for every disaster/crop failure that occured in your land",
-            "Any number of crops can be sold in a day in Sell Crop Page",
-            "Clear Description of Crops can sell your crop efficiently"};
+    private String policy_desc[] ;
+
 
 
     //int[] simage ={R.mipmap.logo_round};
@@ -36,8 +31,10 @@ public class PoliciesFragment extends Fragment {
 
         RecyclerView.LayoutManager layoutmanager = new LinearLayoutManager(getActivity());
         recyclerview.setLayoutManager(layoutmanager);
+        fpolicies=getActivity().getResources().getStringArray(R.array.farmer_policies);
+        policy_desc=getActivity().getResources().getStringArray(R.array.policy_description);
 
-        PoliciesAdapter myadapter = new PoliciesAdapter(getActivity(), sname, sdesc);
+        PoliciesAdapter myadapter = new PoliciesAdapter(getActivity(), fpolicies, policy_desc);
         recyclerview.setAdapter(myadapter);
 
 

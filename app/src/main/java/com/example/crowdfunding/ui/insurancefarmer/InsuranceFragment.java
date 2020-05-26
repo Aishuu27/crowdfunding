@@ -40,7 +40,7 @@ public class InsuranceFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
 
-        View root = inflater.inflate(R.layout.fragment_cropinfo_farmer, container, false);
+        View root = inflater.inflate(R.layout.fragment_insurance_farmer, container, false);
 
         recyclerview = (RecyclerView) root.findViewById(R.id.scheme_view);
 

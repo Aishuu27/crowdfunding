@@ -34,7 +34,7 @@
             android:layout_width="wrap_content"
             android:layout_height="30dp"
             android:layout_marginLeft="140dp"
-            android:text="Enter Name"
+            android:text="@string/setting_enter_name"
             android:textSize="25sp" />
     </RelativeLayout>
     <RelativeLayout
@@ -56,7 +56,7 @@
             android:layout_width="wrap_content"
             android:layout_height="30dp"
             android:layout_marginLeft="140dp"
-            android:text="Enter Phone Number"
+            android:text="@string/settings_phone_number"
             android:textSize="25sp" />
     </RelativeLayout>
     <RelativeLayout
@@ -77,37 +77,17 @@
             android:layout_width="wrap_content"
             android:layout_height="30dp"
             android:layout_marginLeft="140dp"
-            android:text="Enter Mail Id"
+            android:text="@string/settings_email_id"
             android:textSize="25sp" />
     </RelativeLayout>
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/imageViewUser"
-        android:layout_marginTop="220dp"
-        android:orientation="horizontal">
-        <ImageView
-            android:id="@+id/imageView13"
-            android:layout_width="wrap_content"
-            android:layout_height="30dp"
-            android:layout_marginLeft="100dp"
-            app:srcCompat="@drawable/langicon" />
 
-        <TextView
-            android:id="@+id/textViewUserLang"
-            android:layout_width="wrap_content"
-            android:layout_height="30dp"
-            android:layout_marginLeft="140dp"
-            android:text="Language"
-            android:textSize="25sp" />
-    </RelativeLayout>
     <Button
         android:id="@+id/buttonToast"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="450dp"
-        android:text="Edit Profile" />
+        android:text="@string/edit_profile_button" />
 
 
 </RelativeLayout>

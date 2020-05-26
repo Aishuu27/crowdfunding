@@ -12,7 +12,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class Cooperative_schemes extends AppCompatActivity {
-    Button scheme_button;
+    Button scheme_button,apply_button;
     String crop_type;
     TextView kharif_text,Rabi_text;
     @Override
@@ -23,6 +23,7 @@ public class Cooperative_schemes extends AppCompatActivity {
         scheme_button=findViewById(R.id.scheme_button);
         kharif_text=findViewById(R.id.Kharif_scheme);
         Rabi_text=findViewById(R.id.Rabi_scheme);
+        apply_button=findViewById(R.id.apply_scheme);
 
         Spinner spinner = findViewById(R.id.crop_type);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.CropType, android.R.layout.simple_spinner_item);
@@ -60,6 +61,11 @@ public class Cooperative_schemes extends AppCompatActivity {
                 }
             }
         });
-
+        apply_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplication(),"Successfully Submitted!! We will Get Back To You!! ",Toast.LENGTH_LONG).show();
+            }
+        });
     }
 }

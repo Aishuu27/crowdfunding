@@ -22,7 +22,7 @@
 
     <string name="menu_home">ಮುಖಪುಟ</string>
     <string name="menu_bank">ಬ್ಯಾಂಕಿಂಗ್</string>
-    <string name="menu_cart">Place Order</string>
+    <string name="menu_cart">ಪ್ಲೇಸ್  ಆರ್ಡರ್</string>
     <string name="menu_about">ಬಗ್ಗೆ</string>
     <string name="menu_setting">ಸಂಯೋಜನೆಗಳು</string>
     <string name="menu_logout">ಲಾಗ್ ಔಟ್</string>
@@ -39,15 +39,20 @@
     <string name="menu_dashboard">ಡಯಾಶ್‌ಬೋರ್ಡ್</string>
     <string name="menu_farmer_logout">ಲಾಗ್ ಔಟ್</string>
 
-    <string name="help_content">We are always available for our users,"\n"
-        For any queries related to Kisaan Rakshak "\n" Application,"\n"
-    Kindly Contact:
+    <string name="help_content">ನಾವು ಯಾವಾಗಲೂ ನಮ್ಮ ಬಳಕೆದಾರರಿಗೆ ಲಭ್ಯವಿರುತ್ತೇವೆ,
+        ಕಿಸಾನ್ ರಕ್ಷಕ್  ಅಪ್ಲಿಕೇಶನ್‌ಗೆ ಸಂಬಂಧಿಸಿದ ಯಾವುದೇ ಪ್ರಶ್ನೆಗಳಿಗೆ,
+    ದಯವಿಟ್ಟು ಸಂಪರ್ಕಿಸಿ:
     </string>
+    <string name="help_contacts">9513187277"\n"
+    9986641573"\n"
+    9740855985"\n"
+    8762216798</string>
 
-    <string name="help_contacts">Number1"\n"
-    Number2"\n"
-    Number3"\n"
-    Number4</string>
+    <string name="setting_enter_name">ಹೆಸರನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="settings_phone_number">ಸಂಪರ್ಕ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="settings_email_id">ಮೇಲ್ ಐಡಿ ನಮೂದಿಸಿ</string>
+    <string name="edit_profile_button">ಪ್ರೊಫೈಲ್ ಬದಲಿಸು</string>
+
 
     <string-array name="schemes">
         <item name="scheme1">ನ್ಯಾಷನಲ್ ಮಿಷನ್ ಫಾರ್ ಸಸ್ಟೈನಬಲ್ ಅಗ್ರಿಕಲ್ಚರ್ (ಎನ್ಎಂಎಸ್ಎ)</item>
@@ -59,6 +64,35 @@
         <item name="scheme7">Scheme on Fisheries Training and Extension</item>
         <item name="scheme8">National Scheme on Welfare of Fishermen</item>
         <item name="scheme9">Micro Irrigation Fund (MIF)</item>
+    </string-array>
+
+    <string name="farmer_cropinfo_button">ಬೆಳೆಗಳನ್ನು ಮಾರಾಟ ಮಾಡಲು ಇಲ್ಲಿ ಕ್ಲಿಕ್ ಮಾಡಿ</string>
+    <string name="cooperative_welcome">ಸ್ವಾಗತ</string>
+    <string name="farmer_details_text">ರೈತ ವಿವರಗಳು</string>
+    <string name="crop_details_text">ಬೆಳೆಗಳ ವಿವರಗಳು</string>string>
+    <string name="register_farmer_text">ರೈತನನ್ನು ನೋಂದಾಯಿಸಿ</string>
+    <string name="cooperative_scheme_text">ಯೋಜನೆಗಳು</string>
+    <string name="send_money">ಹಣ ವ್ಯವಹಾರ</string>
+    <string name="add_account">ಬಯಾಂಕ್ ವಿವರಗಳು</string>
+    <string name="check_balance">ನಿಮ್ಮ ಖಾತೆಯ ಬಾಕಿ ಪರಿಶೀಲಿಸಿ</string>
+    <string name="about_description">ಕಿಸ್ಸಾನ್ ರಕ್ಷಕ್, ಭಾರತೀಯ ರೈತರ ಕಲ್ಯಾಣಕ್ಕಾಗಿ ಪ್ರತ್ಯೇಕವಾಗಿ ಅಭಿವೃದ್ಧಿಪಡಿಸಲಾಗಿದೆ. ಇದು ರೈತರಿಗೆ ತಮ್ಮ ಬೆಳೆಗಳನ್ನು ಬೆಳೆಸಲು ಅಗತ್ಯವಾದ ಹಣವನ್ನು ಧನಸಹಾಯ ಮಾಡಲು ಕ್ರೌಡ್ ಫಂಡಿಂಗ್ ತಂತ್ರವನ್ನು ಬಳಸುತ್ತದೆ. ರೈತರಿಗೆ ಎರವಲು ಪಡೆದ ಮೊತ್ತವನ್ನು ಹಣಕ್ಕಿಂತ ಹೆಚ್ಚಾಗಿ ತಮ್ಮ ಇಳುವರಿಯೊಂದಿಗೆ ಹಿಂದಿರುಗಿಸಲು ಅವಕಾಶ ನೀಡಲಾಗುತ್ತದೆ. ಜೈ ಕಿಸ್ಸಾನ್ !! "</string>
+
+    <string-array name="farmer_policies">
+        <item>ಪಾಲಿಸಿ ೧</item>
+        <item>ಪಾಲಿಸಿ ೨</item>
+        <item>ಪಾಲಿಸಿ ೩</item>
+        <item>ಪಾಲಿಸಿ ೪</item>
+        <item>ಪಾಲಿಸಿ ೫</item>
+        <item>ಪಾಲಿಸಿ ೬</item>
+    </string-array>
+
+    <string-array name="policy_description">
+        <item>ಬಳಕೆದಾರರು ಬ್ಯಾಂಕ್ ವಿವರಗಳನ್ನು ಒದಗಿಸಿದರೆ ಮಾತ್ರ ವ್ಯವಹಾರಗಳು ಪೂರ್ಣಗೊಳ್ಳುತ್ತವೆ</item>
+        <item>ಅಗತ್ಯವಿರುವ ಎಲ್ಲಾ ದಾಖಲೆಗಳನ್ನು ಪರಿಶೀಲಿಸಬೇಕು ಮತ್ತು ನವೀಕರಿಸಬೇಕು</item>
+        <item>ಬ್ಯಾಂಕ್ ವಿವರಗಳು ಅಥವಾ ಒದಗಿಸಿದ ದಾಖಲೆಗಳು ಸುಳ್ಳು ಎಂದು ಕಂಡುಬಂದಲ್ಲಿ ವಿನಂತಿಸಿದ ಮೊತ್ತವನ್ನು ಮಂಜೂರು ಮಾಡಲಾಗುವುದಿಲ್ಲ</item>
+        <item>ನಿಮ್ಮ ಭೂಮಿಯಲ್ಲಿ ಸಂಭವಿಸಿದ ಪ್ರತಿ ವಿಪತ್ತು / ಬೆಳೆ ವೈಫಲ್ಯಕ್ಕೆ ಪುರಾವೆಗಳನ್ನು ಸಲ್ಲಿಸಬೇಕು</item>
+        <item>ಮಾರಾಟ ಬೆಳೆ ಪುಟದಲ್ಲಿ ಒಂದು ದಿನದಲ್ಲಿ ಯಾವುದೇ ಸಂಖ್ಯೆಯ ಬೆಳೆಗಳನ್ನು ಮಾರಾಟ ಮಾಡಬಹುದು</item>
+        <item>ಬೆಳೆಗಳ ಸ್ಪಷ್ಟ ವಿವರಣೆ ನಿಮ್ಮ ಬೆಳೆಯನ್ನು ಸಮರ್ಥವಾಗಿ ಮಾರಾಟ ಮಾಡಬಹುದು</item>
     </string-array>
 
 </resources>

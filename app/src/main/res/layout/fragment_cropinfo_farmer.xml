@@ -20,7 +20,7 @@
         android:id="@+id/sell_crops"
         android:layout_width="400dp"
         android:layout_height="50dp"
-        android:text="Click the button to Sell Your Crops"
+        android:text="@string/farmer_cropinfo_button"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="5dp"
         tools:layout_editor_absoluteY="2dp" />

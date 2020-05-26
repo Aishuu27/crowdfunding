@@ -27,7 +27,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:gravity="center_horizontal"
-        android:text="Kissan Rakshak, an application exclusively developed for the welfare of Indian Farmers.It uses crowd Funding technique to fund farmers with money required to cultivate their crops.The Farmers are given a chance to return the borrowed amount with their yield rather than money. JAI KISSAN!!"
+        android:text="@string/about_description"
         android:textAlignment="center"
         android:textColor="@android:color/holo_green_light"
         android:textSize="20sp"
