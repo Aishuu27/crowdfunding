@@ -119,5 +119,50 @@
         <item>Any number of crops can be sold in a day in Sell Crop Page</item>
         <item>Clear Description of Crops can sell your crop efficiently</item>
     </string-array>
+    <string-array name="crop_insurance_name">
+        <item>Crop Insurance</item>
+        <item>Weather based Insurance</item>
+        <item>Power Failure Insurance</item>
+        <item>Rainfall Insurance/Varsha Bhima</item>
+        <item>Mango  Insurance</item>
+        <item>Plant Insurance</item>
+        <item>Grapes Insurance</item>
+        <item>Potato Insurance</item>
+        <item>Wheat  Insurance</item>
+        <item>Pulpwood Tree Insurance</item>
+        <item>Rubber Insurance</item>
+        <item>Coconut Insurance</item>
+        <item>Rabi Weather Insurance</item>
+    </string-array>
+    <string-array name="insurance_description">
+        <item>Crop Insurance is purchased by agricultural producers,and subsidized by the federal government,to protect against either the loss of their crops due to natural disaster such as hail,drought, and floods, or the loss of revenue due to decline in the prices of agricultural commodities</item>
+        <item>Weather based Insurance is purchased by agricultural producers,and subsidized by the federal government,to protect against either the loss of their crops due to natural disaster such as hail,drought, and floods, or the loss of revenue due to decline in the prices of agricultural commodities</item>
+        <item>Power Failure Insurance is purchased by agricultural producers,and subsidized by the federal government,to protect against either the loss of their crops due to natural disaster such as hail,drought, and floods, or the loss of revenue due to decline in the prices of agricultural commodities</item>
+        <item>Rainfall Insurance/Varsha Bhima is purchased by agricultural producers,and subsidized by the federal government,to protect against either the loss of their crops due to natural disaster such as hail,drought, and floods, or the loss of revenue due to decline in the prices of agricultural commodities</item>
+        <item>Mango  Insurance is purchased by agricultural producers,and subsidized by the federal government,to protect against either the loss of their crops due to natural disaster such as hail,drought, and floods, or the loss of revenue due to decline in the prices of agricultural commodities</item>
+        <item>Plant Insurance is purchased by agricultural producers,and subsidized by the federal government,to protect against either the loss of their crops due to natural disaster such as hail,drought, and floods, or the loss of revenue due to decline in the prices of agricultural commodities</item>
+        <item>Grapes Insurance is purchased by agricultural producers,and subsidized by the federal government,to protect against either the loss of their crops due to natural disaster such as hail,drought, and floods, or the loss of revenue due to decline in the prices of agricultural commodities</item>
+        <item>Potato Insurance is purchased by agricultural producers,and subsidized by the federal government,to protect against either the loss of their crops due to natural disaster such as hail,drought, and floods, or the loss of revenue due to decline in the prices of agricultural commodities</item>
+        <item>Wheat  Insurance is purchased by agricultural producers,and subsidized by the federal government,to protect against either the loss of their crops due to natural disaster such as hail,drought, and floods, or the loss of revenue due to decline in the prices of agricultural commodities</item>
+        <item>Pulpwood Tree Insurance is purchased by agricultural producers,and subsidized by the federal government,to protect against either the loss of their crops due to natural disaster such as hail,drought, and floods, or the loss of revenue due to decline in the prices of agricultural commodities</item>
+        <item>Rubber Insurance is purchased by agricultural producers,and subsidized by the federal government,to protect against either the loss of their crops due to natural disaster such as hail,drought, and floods, or the loss of revenue due to decline in the prices of agricultural commodities</item>
+        <item>Coconut Insurance is purchased by agricultural producers,and subsidized by the federal government,to protect against either the loss of their crops due to natural disaster such as hail,drought, and floods, or the loss of revenue due to decline in the prices of agricultural commodities</item>
+        <item>Rabi Weather Insurance is purchased by agricultural producers,and subsidized by the federal government,to protect against either the loss of their crops due to natural disaster such as hail,drought, and floods, or the loss of revenue due to decline in the prices of agricultural commodities</item>
+    </string-array>
+    <string-array name="crop_name_farmer">
+        <item>Potato</item>
+        <item>Tomato</item>
+        <item>Onion</item>
+        <item>Carrot</item>
+        <item>Beans</item>
+        <item>Brinjal</item>
+        <item>Cucumber</item>
+        <item>Raddish</item>
+        <item>Spinach</item>
+        <item>Coriander Leaves</item>
+        <item>BeetRoot</item>
+        <item>Chillies</item>
+        <item>Ladys Finger</item>
+    </string-array>
 
 </resources>

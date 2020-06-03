@@ -16,12 +16,12 @@ public class InsuranceFragment extends Fragment {
     private RecyclerView recyclerview;
     int[] image ={R.drawable.insurance_crop,R.drawable.insurance_weather,R.drawable.insurance_power,R.drawable.insurance_rain,R.drawable.insurance_mango,R.drawable.insurance_plant,
             R.drawable.insurance_grapes,R.drawable.insurance_potato,R.drawable.insurance_wheat,R.drawable.insurance_pulp,R.drawable.insurance_rubber,R.drawable.insurance_coconut,R.drawable.insurance_rabi};
-    private String sname[] = {"Crop Insurance", "Weather based Insurance", "Power Failure Insurance",
+    private String insurace_name[];/* = {"Crop Insurance", "Weather based Insurance", "Power Failure Insurance",
             "Rainfall Insurance/Varsha Bhima", "Mango  Insurance", "Plant Insurance",
             "Grapes Insurance", "Potato Insurance","Wheat  Insurance","Pulpwood Tree Insurance",
-            "Rubber Insurance","Coconut Insurance","Rabi Weather Insurance"};
+            "Rubber Insurance","Coconut Insurance","Rabi Weather Insurance"};*/
 
-    private String sdesc[] = {"Crop Insurance is purchased by agricutural producers,and subsidized by the federal government,to protect against either the loss of their crops due to natural diaster such as hail,drought, and floods, or the loss of revenue due to decline in the prices of agricultural commodities",
+    private String insurance_description[];/* = {"Crop Insurance is purchased by agricutural producers,and subsidized by the federal government,to protect against either the loss of their crops due to natural diaster such as hail,drought, and floods, or the loss of revenue due to decline in the prices of agricultural commodities",
             "Weather based Insurance is purchased by agricutural producers,and subsidized by the federal government,to protect against either the loss of their crops due to natural diaster such as hail,drought, and floods, or the loss of revenue due to decline in the prices of agricultural commodities",
             "Power Failure Insurance is purchased by agricutural producers,and subsidized by the federal government,to protect against either the loss of their crops due to natural diaster such as hail,drought, and floods, or the loss of revenue due to decline in the prices of agricultural commodities",
             "Rainfall Insurance/Varsha Bhima is purchased by agricutural producers,and subsidized by the federal government,to protect against either the loss of their crops due to natural diaster such as hail,drought, and floods, or the loss of revenue due to decline in the prices of agricultural commodities",
@@ -33,7 +33,7 @@ public class InsuranceFragment extends Fragment {
             "Pulpwood Tree Insurance is purchased by agricutural producers,and subsidized by the federal government,to protect against either the loss of their crops due to natural diaster such as hail,drought, and floods, or the loss of revenue due to decline in the prices of agricultural commodities",
             "Rubber Insurance is purchased by agricutural producers,and subsidized by the federal government,to protect against either the loss of their crops due to natural diaster such as hail,drought, and floods, or the loss of revenue due to decline in the prices of agricultural commodities",
             "Coconut Insurance is purchased by agricutural producers,and subsidized by the federal government,to protect against either the loss of their crops due to natural diaster such as hail,drought, and floods, or the loss of revenue due to decline in the prices of agricultural commodities",
-            "Rabi Weather Insurance is purchased by agricutural producers,and subsidized by the federal government,to protect against either the loss of their crops due to natural diaster such as hail,drought, and floods, or the loss of revenue due to decline in the prices of agricultural commodities"};
+            "Rabi Weather Insurance is purchased by agricutural producers,and subsidized by the federal government,to protect against either the loss of their crops due to natural diaster such as hail,drought, and floods, or the loss of revenue due to decline in the prices of agricultural commodities"};*/
 
     //int[] simage ={R.mipmap.logo_round};
 
@@ -46,8 +46,10 @@ public class InsuranceFragment extends Fragment {
 
         RecyclerView.LayoutManager layoutmanager = new LinearLayoutManager(getActivity());
         recyclerview.setLayoutManager(layoutmanager);
+        insurace_name=getActivity().getResources().getStringArray(R.array.crop_insurance_name);
+        insurance_description=getActivity().getResources().getStringArray(R.array.insurance_description);
 
-        InsuranceAdapter myadapter = new InsuranceAdapter(getActivity(), image,sname, sdesc);
+        InsuranceAdapter myadapter = new InsuranceAdapter(getActivity(), image,insurace_name, insurance_description);
         recyclerview.setAdapter(myadapter);
 
 
