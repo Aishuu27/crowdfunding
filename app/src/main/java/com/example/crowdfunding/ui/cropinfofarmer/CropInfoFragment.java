@@ -21,9 +21,9 @@ public class CropInfoFragment extends Fragment {
     int[] image ={R.drawable.potato,R.drawable.tomato,R.drawable.onion,R.drawable.carrot,R.drawable.beans,R.drawable.brinjal,R.drawable.cucumber,R.drawable.raddish,R.drawable.spinach,R.drawable.coriender,R.drawable.beetroot,R.drawable.chillies,R.drawable.layds_finger};
 
 
-    private String sname[]={"Potato","Tomato","Onion","Carrot","Beans","Brinjal","Cucumber","Raddish","Spinach","Coriander Leaves","BeetRoot","Chillies","Ladys Finger"};
+    private String crop_name[];/*={"Potato","Tomato","Onion","Carrot","Beans","Brinjal","Cucumber","Raddish","Spinach","Coriander Leaves","BeetRoot","Chillies","Ladys Finger"};*/
 
-    private String sdesc[]={"The Portuguese introduced potatoes, which they called 'Batata', to India in the early seventeenth century when they cultivated it along the western coast. British traders introduced potatoes to Bengal as a root crop, 'Alu'.",
+    private String crop_description[]={"The Portuguese introduced potatoes, which they called 'Batata', to India in the early seventeenth century when they cultivated it along the western coast. British traders introduced potatoes to Bengal as a root crop, 'Alu'.",
             "Andhra Pradesh is the largest producer of tomatoes in India. Tomato is one of the major horticulture crop of the country. ... Around 11 % of the total world produce of tomatoes is cultivated in India.",
             "India is the second largest onion growing country in the world. Indian onions are famous for their pungency and are available round the year. Indian onions has two crop cycles.",
             "Carrots are a rich source of b-carotene and contain appreciable amounts of thiamine and riboflavin. The Carrot crop is the Second most popular vegetable in the world after potato.",
@@ -48,8 +48,10 @@ public class CropInfoFragment extends Fragment {
 
         RecyclerView.LayoutManager layoutmanager=new LinearLayoutManager(getActivity());
         recyclerview.setLayoutManager(layoutmanager);
+        crop_name=getActivity().getResources().getStringArray(R.array.crop_name_farmer);
+       // crop_description=getActivity().getResources().getStringArray(R.array.crop_description_farmer);
 
-        CropInfoAdapter myadapter = new CropInfoAdapter(getActivity(),image,sname,sdesc);
+        CropInfoAdapter myadapter = new CropInfoAdapter(getActivity(),image,crop_name,crop_description);
         recyclerview.setAdapter(myadapter);
         SellCropBtn = (Button) root.findViewById(R.id.sell_crops);
         SellCropBtn.setOnClickListener(new View.OnClickListener() {
