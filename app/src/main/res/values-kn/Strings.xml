@@ -57,13 +57,13 @@
     <string-array name="schemes">
         <item name="scheme1">ನ್ಯಾಷನಲ್ ಮಿಷನ್ ಫಾರ್ ಸಸ್ಟೈನಬಲ್ ಅಗ್ರಿಕಲ್ಚರ್ (ಎನ್ಎಂಎಸ್ಎ)</item>
         <item name="scheme2">ಪ್ರಧಾನಮಂತ್ರಿ ಕೃಷಿ ಸಿಂಚಾಯಿ ಯೋಜನೆ(PMKSY)</item>
-        <item name="scheme3">Paramparagat Krishi Vikas Yojana (PKVY)</item>
-        <item name="scheme4">Pradhan Mantri Fasal Bima Yojana (PMFBY)</item>
-        <item name="scheme5">Gramin Bhandaran Yojna</item>
-        <item name="scheme6">Livestock insurance Scheme</item>
-        <item name="scheme7">Scheme on Fisheries Training and Extension</item>
-        <item name="scheme8">National Scheme on Welfare of Fishermen</item>
-        <item name="scheme9">Micro Irrigation Fund (MIF)</item>
+        <item name="scheme3">ಪರಂಪರಗತ್ ಕೃಶಿ ವಿಕಾಸ್ ಯೋಜನೆ (ಪಿಕೆವಿವೈ)</item>
+        <item name="scheme4"> ಪ್ರಧಾನ್ ಮಂತ್ರಿ ಫಾಸಲ್ ಬೀಮಾ ಯೋಜನೆ (ಪಿಎಂಎಫ್‌ಬಿವೈ) ಗ್ರಾಮೀಣ ಭಂಡರನ್ ಯೋಜನೆ </item>
+        <item name="scheme5">ಗ್ರಾಮೀಣ ಭಂಡರನ್ ಯೋಜನೆ</item>
+        <item name="scheme6">ಜಾನುವಾರು ವಿಮಾ ಯೋಜನೆ </item>
+        <item name="scheme7">ಮೀನುಗಾರಿಕೆ ತರಬೇತಿ ಮತ್ತು ವಿಸ್ತರಣೆಯ </item>
+        <item name="scheme8">ಮೀನುಗಾರರ ಕಲ್ಯಾಣ ಕುರಿತ ರಾಷ್ಟ್ರೀಯ ಯೋಜನೆ</item>
+        <item name="scheme9">ಸೂಕ್ಷ್ಮ ನೀರಾವರಿ ನಿಧಿ (ಮಿಫ್)</item>
     </string-array>
 
     <string name="farmer_cropinfo_button">ಬೆಳೆಗಳನ್ನು ಮಾರಾಟ ಮಾಡಲು ಇಲ್ಲಿ ಕ್ಲಿಕ್ ಮಾಡಿ</string>

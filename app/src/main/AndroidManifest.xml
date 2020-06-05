@@ -2,7 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.crowdfunding">
 
-    <uses-feature android:name="android.hardware.camera"
+    <uses-feature
+        android:name="android.hardware.camera"
         android:required="true" />
 
     <application
@@ -12,7 +13,8 @@
         android:roundIcon="@mipmap/logo_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".cropdetails_cooperative.CropDetails_cooperative"></activity>
+        <activity android:name=".Cooperative_Login"></activity>
+        <activity android:name=".cropdetails_cooperative.CropDetails_cooperative" />
         <activity android:name=".farmer_details.Farmer_details" />
         <activity android:name=".Cooperative_insurance" />
         <activity android:name=".Cooperative_schemes" />

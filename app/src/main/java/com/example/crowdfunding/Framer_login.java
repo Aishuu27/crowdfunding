@@ -28,7 +28,7 @@ public class Framer_login extends AppCompatActivity {
 
                 farmer_username=username.getText().toString();
                 farmer_password=password.getText().toString();
-                if((farmer_username.equals("1234")&& farmer_password.equals("abcd"))||(farmer_username.equals("9740855985")&&farmer_password.equals("suraj123"))||(farmer_username.equals("8884110104")&&farmer_password.equals("sonu123"))){
+                if((farmer_username.equals("8762216798")&& farmer_password.equals("abcd"))||(farmer_username.equals("9740855985")&&farmer_password.equals("suraj123"))||(farmer_username.equals("8884110104")&&farmer_password.equals("sonu123"))){
                     Intent i= new Intent(Framer_login.this, After_farmer_login.class);
                 startActivity(i);
                 }

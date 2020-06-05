@@ -11,7 +11,6 @@
     <string name="action_search">Search</string>
 
 
-
     <string name="menu_home">Home</string>
     <string name="menu_bank">Banking</string>
     <string name="menu_cart">Place Order</string>
@@ -20,14 +19,12 @@
     <string name="menu_logout">Logout</string>
 
 
-
     <string-array name="Role">
         <item>Choose Role</item>
         <item>Co-Operative society</item>
         <item>Farmer</item>
         <item>Funder</item>
     </string-array>
-
 
 
     <string-array name="Language">

@@ -82,7 +82,7 @@ public class AfterSplash extends AppCompatActivity {
                     startActivity(intent);
                 }
                 else if(role.equalsIgnoreCase("Co-Operative society")){
-                    Intent intent=new Intent(AfterSplash.this,Cooperative_Society.class );
+                    Intent intent=new Intent(AfterSplash.this,Cooperative_Login.class );
                     startActivity(intent);
                 }
                 else{
