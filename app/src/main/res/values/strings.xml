@@ -34,7 +34,6 @@
         <item>Choose Language</item>
         <item>English</item>
         <item>Kannada</item>
-        <item>Hindi</item>
     </string-array>
 
     <string-array name="CropType">
@@ -115,7 +114,7 @@
         <item>Transactions will be completed only if the user has provided Bank Details</item>
         <item>All the necessary documents need to be verified and updated</item>
         <item>Requested amount will not be sanctioned if bank details or documents provided are found to be false</item>
-        <item>Proofs to be submitted for every disaster/crop failure that occured in your land</item>
+        <item>Proofs to be submitted for every disaster/crop failure that occurred in your land</item>
         <item>Any number of crops can be sold in a day in Sell Crop Page</item>
         <item>Clear Description of Crops can sell your crop efficiently</item>
     </string-array>
@@ -164,5 +163,35 @@
         <item>Chillies</item>
         <item>Ladys Finger</item>
     </string-array>
+
+    <string-array name="crop_description_farmer">
+        <item>The Portuguese introduced potatoes, which they called Batata,to India in the early seventeenth century when they cultivated it along the western coast.British traders introduced potatoes to Bengal as a root crop.</item>
+        <item>Andhra Pradesh is the largest producer of tomatoes in India. Tomato is one of the major horticulture crop of the country.Around 11 % of the total world produce of tomatoes is cultivated in India.</item>
+        <item>India is the second largest onion growing country in the world.Indian onions are famous for their pungency and are available round the year.Indian onions has two crop cycles.</item>
+        <item>Carrots are a rich source of b-carotene and contain appreciable amounts of thiamine and riboflavin.The Carrot crop is the Second most popular vegetable in the world after potato.</item>
+        <item>Dal is often translated as lentils but actually refers to a split version of a number of lentils,peas,chickpeas (chana),kidney beans and so on.If a pulse is split into half, it is a dal.</item>
+        <item>Brinjal is grown on nearly 550,000 hectares in India, making the country the second largest producer after China with a 26% world production share.</item>
+        <item>Cucumbers are originated in India. It is a climbing plant which is used as summer vegetable throughout in India. The cucumber fruit is eaten raw or is served as a salad or cooked as a vegetable.</item>
+        <item>Daikon refers to a wide variety of winter oilseed radishes from Asia. While the Japanese name daikon has been adopted in English, it is also sometimes called the Japanese radish, Chinese radish, Oriental radish or mooli (in India and South Asia)</item>
+        <item>Spinach is a hot season leafy vegetable grown across all India,this can be grown in back yards as well as open fields commercially Known for lush green foliage spinach is rich in iron, vitamins, and anti-oxidants.</item>
+        <item>Coriander leaves have a strong odour. They also haveAromatic green leaves that are largely used to flavour and garnish food. Belonging to the same family of Cilantro, the leaves, dried seeds and powder are widely used in the Indian cuisine.</item>
+        <item>In India Beetroot is mainly cultivated in Haryana,Uttar Pradesh,Himachal Pradesh,West Bengal and Maharashtra. The total cultivable areas of Beetroot in Tamil Nadu during 2014-15 were 1116 in hectares</item>
+        <item>Chili pepper is a fruit used in Indian cuisines as a spice, introduced in India by the Portuguese and today India is one of the largest producer of green chili</item>
+        <item>Ladies finger or Okra, which is also known as Bhindi, is one of the important vegetable crops of India. It is grown throughout the tropical and sub-tropical regions and also in the warmer parts of the temperate regions.</item>
+
+    </string-array>
+    <string-array name="scheme_description">
+        <item>National Mission for Sustainable Agriculture (NMSA) has been formulated for enhancing agricultural productivity especially in rainfed areas focusing on integrated farming, water use efficiency, soil health management and synergizing resource conservation</item>
+        <item>Har Khet ko Pani Prime Minister Krishi Sinchayee Yojana Government of India is committed to accord high priority to water conservation and its management. To this effect Pradhan Mantri Krishi Sinchayee Yojana (PMKSY) has been formulated with the vision of extending the coverage of irrigation Har Khet ko pani and improving water use efficiency More crop per drop in a focused manner with end to end solution on various activities.</item>
+        <item>The Paramparagat Krishi Vikas Yojana (PKVY),an initiative to promote organic farming in the country, was launched by the NDA government in 2015.According to the scheme,farmers will be encouraged to form groups or clusters and take to organic farming methods over large areas in the country.</item>
+        <item>Pradhan Mantri Fasal Bima Yojana (PMFBY) is the government sponsored crop insurance scheme that integrates multiple stakeholders on a single platform.</item>
+        <item>Create scientific storage capacity with allied facilities in rural areas.</item>
+        <item>This scheme aims to provide protection mechanism to the farmers and cattle rearers against any eventual loss of their animals due to death and to demonstrate the benefit of the insurance of livestock to the people and popularize it with the ultimate goal of attaining qualitative improvement in livestock and their products.</item>
+        <item>It was launched to provide training for fishery sector so as to assist in undertaking fisheries extension programmes effectively</item>
+        <item>This scheme was launched to provide financial assistance to fishers for construction of house,community hall for recreation and common working place. It also aims to install tube-wells for drinking water and assistance during lean period through saving cum relief component.</item>
+        <item>The government approved a dedicated Rs5,000 crore fund to bring more land area under micro-irrigation as part of its objective to boost agriculture production and farmers income.The fund has been set up under NABARD, which will provide this amount to states on concessional rate of interest to promote micro-irrigation,which currently has a coverage of only 10 million hectares as against the potential of 70 million hectares.</item>
+    </string-array>
+
+    <string name="Readmore_button">Read More..</string>
 
 </resources>
