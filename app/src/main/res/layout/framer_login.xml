@@ -1,67 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Framer_login">
+    android:id="@+id/user_login"
+    android:orientation="vertical"
+    tools:context=".FramerLogin">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:cardBackgroundColor="#52c7b8">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/ic_arrow_back"/>
+        </LinearLayout>
 
-    <EditText
-        android:id="@+id/farmer_phone"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="64dp"
-        android:layout_marginLeft="64dp"
-        android:layout_marginTop="72dp"
-        android:ems="10"
-        android:hint="@string/farmer_phone_number"
-        android:inputType="phone"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textColor="@android:color/black"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/farmer_login" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/farmer_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/cherry_cream_soda"
+                android:text="@string/farmer_login_heading"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="36sp" />
+            <EditText
+                android:id="@+id/farmer_phone"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="72dp"
+                android:fontFamily="@font/amarante"
+                android:ems="10"
+                android:hint="@string/farmer_phone_number"
+                android:textSize="25sp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:background="@drawable/spinner_background"
+                android:inputType="phone"
+                android:textColor="@android:color/black" />
+            <EditText
+                android:id="@+id/farmer_password"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/amarante"
+                android:background="@drawable/spinner_background"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:textSize="25sp"
+                android:layout_marginTop="72dp"
+                android:ems="10"
+                android:hint="@string/farmer_password"
+                android:inputType="textPassword" />
+            <Button
+                android:id="@+id/farmer_submit"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="84dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/button_background"
+                android:text="@string/farmer_login_button"
+                android:fontFamily="@font/architects_daughter"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
 
-    <TextView
-        android:id="@+id/farmer_login"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="72dp"
-        android:layout_marginLeft="72dp"
-        android:layout_marginTop="108dp"
-        android:text="@string/farmer_login_heading"
-        android:textColor="@android:color/holo_green_dark"
-        android:textSize="36sp"
-        android:textStyle="bold|italic"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/farmer_password"
-        android:layout_width="258dp"
-        android:layout_height="47dp"
-        android:layout_marginStart="64dp"
-        android:layout_marginLeft="64dp"
-        android:layout_marginTop="72dp"
-        android:ems="10"
-        android:hint="@string/farmer_password"
-        android:inputType="textPassword"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/farmer_phone" />
-
-    <Button
-        android:id="@+id/farmer_submit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="72dp"
-        android:layout_marginLeft="72dp"
-        android:layout_marginTop="60dp"
-        android:background="@android:color/holo_blue_bright"
-        android:text="@string/farmer_login_button"
-        android:textAllCaps="false"
-        android:textColor="@android:color/black"
-        android:textSize="24sp"
-        android:textStyle="italic"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/farmer_password" />
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

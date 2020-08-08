@@ -11,7 +11,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-public class Cooperative_insurance extends AppCompatActivity {
+public class CooperativeInsurance extends AppCompatActivity {
     private ImageView img;
     Button claim_insurance;
      private static final int REQUEST_IMAGE_CAPTURE=101;

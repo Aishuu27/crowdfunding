@@ -7,10 +7,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.crowdfunding.cropdetails_cooperative.CropDetails_cooperative;
+import com.example.crowdfunding.cropdetails_cooperative.CropDetailsCooperative;
 import com.example.crowdfunding.farmer_details.Farmer_details;
 
-public class Cooperative_Society extends AppCompatActivity {
+public class CooperativeSociety extends AppCompatActivity {
     Button scheme_button,insurance_button,farmer_details,crop_details,register_farmer;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +26,7 @@ public class Cooperative_Society extends AppCompatActivity {
         scheme_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i=new Intent(Cooperative_Society.this,Cooperative_schemes.class);
+                Intent i=new Intent(CooperativeSociety.this, CooperativeSchemes.class);
                 startActivity(i);
             }
         });
@@ -34,28 +34,28 @@ public class Cooperative_Society extends AppCompatActivity {
         insurance_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                    Intent insurance_intent=new Intent(Cooperative_Society.this,Cooperative_insurance.class);
+                    Intent insurance_intent=new Intent(CooperativeSociety.this, CooperativeInsurance.class);
                     startActivity(insurance_intent);
             }
         });
         farmer_details.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-               Intent details_intent=new Intent(Cooperative_Society.this, Farmer_details.class) ;
+               Intent details_intent=new Intent(CooperativeSociety.this, Farmer_details.class) ;
                startActivity(details_intent);
             }
         });
         crop_details.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent crop_intent=new Intent(Cooperative_Society.this, CropDetails_cooperative.class);
+                Intent crop_intent=new Intent(CooperativeSociety.this, CropDetailsCooperative.class);
                 startActivity(crop_intent);
             }
         });
         register_farmer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent register_intent=new Intent(Cooperative_Society.this,RegisterActivity.class);
+                Intent register_intent=new Intent(CooperativeSociety.this,RegisterActivity.class);
                 startActivity(register_intent);
             }
         });

@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -46,7 +47,7 @@ public class Farmer_Adapter extends RecyclerView.Adapter<Farmer_Adapter.MyViewHo
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
         TextView name,age,place;
-        ConstraintLayout mainlayout;
+        LinearLayout mainlayout;
         public MyViewHolder(@NonNull View v) {
             super(v);
             name=v.findViewById(R.id.farmer_name);

@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:id="@+id/schemelayout"
     tools:ccontext=".ui.insurance.InsuranceFragment"
     android:layout_height="wrap_content">
@@ -11,69 +13,58 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints"
-        android:layout_marginBottom="4dp"
         app:cardCornerRadius="5dp">
 
-        <androidx.constraintlayout.widget.ConstraintLayout
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="243dp"
-            android:layout_margin="10dp"
-            android:background="#e1ffb1" >
-
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/spinner_background"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical">
             <TextView
                 android:id="@+id/scheme_title"
-                android:layout_width="379dp"
-                android:layout_height="36dp"
-                android:layout_marginStart="5dp"
-                android:layout_marginLeft="5dp"
-                android:layout_marginTop="16dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginRight="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:text="Scheme description"
-                android:textSize="16sp"
-                android:textColor="@android:color/black"
-                android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                tools:ignore="InvalidId" />
-
-            <TextView
-                android:id="@+id/scheme_description"
-                android:layout_width="221dp"
-                android:layout_height="173dp"
-                android:layout_marginStart="6dp"
-                android:layout_marginLeft="6dp"
-                android:layout_marginTop="9dp"
-                android:layout_marginEnd="7dp"
-                android:layout_marginRight="7dp"
-                android:text="Description"
-                android:textSize="14sp"
-                android:textColor="@android:color/black"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/imageView3"
-                app:layout_constraintTop_toBottomOf="@+id/scheme_title" />
-
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/cherry_cream_soda"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textColor="@android:color/black" />
             <ImageView
                 android:id="@+id/imageView3"
-                android:layout_width="164dp"
-                android:layout_height="177dp"
-                android:layout_marginStart="5dp"
-                android:layout_marginLeft="5dp"
-                android:layout_marginTop="9dp"
-                android:layout_marginEnd="17dp"
-                android:layout_marginRight="17dp"
-                app:layout_constraintEnd_toStartOf="@+id/scheme_description"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/scheme_title"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                android:background="@drawable/image_background"
                 app:srcCompat="@mipmap/logo_round" />
+            <TextView
+                android:id="@+id/scheme_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:fontFamily="@font/almendra_italic"
+                android:lineSpacingExtra="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="20sp"
+                android:textColor="@android:color/black" />
 
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
     </androidx.cardview.widget.CardView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#F2F2F2"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

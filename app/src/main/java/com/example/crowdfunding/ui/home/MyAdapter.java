@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -67,9 +68,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
     public class MyViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
         TextView title,description;
-        ImageView image;
-        ConstraintLayout cardview;
-        ConstraintLayout card_design;
+        //ImageView image;
         Button read_button;
 
 
@@ -79,8 +78,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
             description= v.findViewById(R.id.scheme_description);
             //image = v.findViewById(R.id.scheme_image);
             read_button=v.findViewById(R.id.readmore);
-            cardview=itemView.findViewById(R.id.schemelayout);
-            card_design= itemView.findViewById(R.id.design);
         }
 
         @Override

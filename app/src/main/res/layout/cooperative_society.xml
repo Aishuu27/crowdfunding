@@ -1,95 +1,142 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="  #8ACA7D  "
+    android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".Cooperative_Society">
+    tools:context=".CooperativeSociety">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#52c7b8"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/ic_arrow_back"/>
+            <TextView
+                android:id="@+id/welcome_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cooperative_welcome"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:fontFamily="@font/aclonica"
+                android:layout_gravity="center"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="20dp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
 
-    <TextView
-        android:id="@+id/welcome_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/cooperative_welcome"
-        android:textColor="#000000"
-        android:textSize="30sp"
-        android:textStyle="bold|italic"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.094" />
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/insurance_button"
-        android:layout_width="125dp"
-        android:layout_height="116dp"
-        android:background="@drawable/rounded_button"
-        android:drawableRight="@drawable/insurance"
-        android:text="@string/menu_insurance"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.811"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.331" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical">
 
-    <Button
-        android:id="@+id/farmer_button"
-        android:layout_width="134dp"
-        android:layout_height="99dp"
-        android:background="@drawable/rounded_button"
-        android:drawableRight="@drawable/farmer_details"
-        android:text="@string/farmer_details_text"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.202"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.552" />
+            <Button
+                android:id="@+id/button_scheme"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:textAllCaps="false"
+                android:textSize="25sp"
+                android:textColor="#303f9f"
+                android:background="@drawable/rounded_button"
+                android:drawableRight="@drawable/schemes_cooperative"
+                android:fontFamily="@font/amarante"
+                android:paddingStart="30dp"
+                android:paddingEnd="30dp"
+                android:text="@string/cooperative_scheme_text" />
 
-    <Button
-        android:id="@+id/crop_details"
-        android:layout_width="128dp"
-        android:layout_height="113dp"
-        android:background="@drawable/rounded_button"
-        android:drawableRight="@drawable/crop_details"
-        android:text="@string/crop_details_text"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.546"
-        app:layout_constraintStart_toEndOf="@+id/farmer_button"
-        app:layout_constraintTop_toBottomOf="@+id/insurance_button"
-        app:layout_constraintVertical_bias="0.026" />
+            <Button
+                android:id="@+id/insurance_button"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:textAllCaps="false"
+                android:textSize="25sp"
+                android:textColor="#303f9f"
+                android:fontFamily="@font/amarante"
+                android:background="@drawable/rounded_button"
+                android:drawableRight="@drawable/insurance"
+                android:paddingStart="30dp"
+                android:paddingEnd="30dp"
+                android:text="@string/menu_insurance" />
 
-    <Button
-        android:id="@+id/register_farmer"
-        android:layout_width="146dp"
-        android:layout_height="98dp"
-        android:background="@drawable/rounded_button"
-        android:drawableRight="@drawable/register"
-        android:text="@string/farmer_details_text"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.547"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.777" />
+            <Button
+                android:id="@+id/farmer_button"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:textAllCaps="false"
+                android:textSize="25sp"
+                android:textColor="#303f9f"
+                android:fontFamily="@font/amarante"
+                android:background="@drawable/rounded_button"
+                android:drawableRight="@drawable/farmer_details"
+                android:paddingStart="30dp"
+                android:paddingEnd="30dp"
+                android:text="@string/farmer_details_text" />
 
-    <Button
-        android:id="@+id/button_scheme"
-        android:layout_width="130dp"
-        android:layout_height="103dp"
-        android:background="@drawable/rounded_button"
-        android:drawableRight="@drawable/schemes_cooperative"
-        android:text="@string/cooperative_scheme_text"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.199"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.345" />
+            <Button
+                android:id="@+id/crop_details"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:textAllCaps="false"
+                android:textSize="25sp"
+                android:textColor="#303f9f"
+                android:fontFamily="@font/amarante"
+                android:background="@drawable/rounded_button"
+                android:drawableRight="@drawable/crop_details"
+                android:paddingStart="30dp"
+                android:paddingEnd="30dp"
+                android:text="@string/crop_details_text" />
 
+            <Button
+                android:id="@+id/register_farmer"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:textAllCaps="false"
+                android:textSize="25sp"
+                android:textColor="#303f9f"
+                android:fontFamily="@font/amarante"
+                android:background="@drawable/rounded_button"
+                android:drawableRight="@drawable/register"
+                android:paddingStart="30dp"
+                android:paddingEnd="30dp"
+                android:text="@string/register_farmer_text" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

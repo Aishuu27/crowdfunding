@@ -95,8 +95,10 @@
     <string name="send_money">Money Transaction</string>
     <string name="add_account">Add Bank Account</string>
     <string name="check_balance">Check Balance</string>
-    <string name="about_description">Kissan Rakshak, an application exclusively developed for the welfare of Indian Farmers.It uses crowd Funding technique to fund farmers with money required to cultivate their crops.The Farmers are given a chance to return the borrowed amount with their yield rather than money. JAI KISSAN!!</string>
+    <string name="about_description">Kissan Rakshak, an application exclusively developed for the welfare of Indian Farmers.It uses crowd Funding technique to fund farmers with money required to cultivate their crops.The Farmers are given a chance to return the borrowed amount with their yield rather than money.\n JAI KISSAN!!</string>
 
+    <string name="rabi_crop_scheme">Rabi Crop\nAmount that can be sanctioned:\nRs.50,000 per acre</string>
+    <string name="kharif_crop_scheme">Kharif Crop\nAmount that can be sanctioned:\nRs.50,000 per acre</string>
 
     <string-array name="farmer_policies">
         <item>Policy 1</item>
@@ -162,7 +164,7 @@
     </string-array>
 
     <string-array name="crop_description_farmer">
-        <item>The Portuguese introduced potatoes, which they called Batata,to India in the early seventeenth century when they cultivated it along the western coast.British traders introduced potatoes to Bengal as a root crop.</item>
+        <item>The Portuguese introduced potatoes,which they called Batata,to India in the early seventeenth century when they cultivated it along the western coast.British traders introduced potatoes to Bengal as a root crop.</item>
         <item>Andhra Pradesh is the largest producer of tomatoes in India. Tomato is one of the major horticulture crop of the country.Around 11 % of the total world produce of tomatoes is cultivated in India.</item>
         <item>India is the second largest onion growing country in the world.Indian onions are famous for their pungency and are available round the year.Indian onions has two crop cycles.</item>
         <item>Carrots are a rich source of b-carotene and contain appreciable amounts of thiamine and riboflavin.The Carrot crop is the Second most popular vegetable in the world after potato.</item>

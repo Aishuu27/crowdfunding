@@ -5,8 +5,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.Menu;
 
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
 
 import androidx.core.view.GravityCompat;
@@ -18,7 +16,7 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-public class After_farmer_login extends AppCompatActivity {
+public class AfterFarmerLogin extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
 
@@ -67,7 +65,7 @@ public class After_farmer_login extends AppCompatActivity {
                 || super.onSupportNavigateUp();
     }
     public void logout(View V){
-        Intent i= new Intent(After_farmer_login.this,AfterSplash.class);
+        Intent i= new Intent(AfterFarmerLogin.this,AfterSplash.class);
         startActivity(i);
     }
     @Override
@@ -76,7 +74,7 @@ public class After_farmer_login extends AppCompatActivity {
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
-            Intent i= new Intent(After_farmer_login.this,AfterSplash.class);
+            Intent i= new Intent(AfterFarmerLogin.this,AfterSplash.class);
             startActivity(i);
         }
     }

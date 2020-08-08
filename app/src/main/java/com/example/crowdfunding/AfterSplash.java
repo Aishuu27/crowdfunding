@@ -78,11 +78,11 @@ public class AfterSplash extends AppCompatActivity {
                     startActivity(intent);
                 }
                 else if(role.equalsIgnoreCase("farmer")){
-                    Intent intent =new Intent(AfterSplash.this,Framer_login.class);
+                    Intent intent =new Intent(AfterSplash.this, FramerLogin.class);
                     startActivity(intent);
                 }
                 else if(role.equalsIgnoreCase("Co-Operative society")){
-                    Intent intent=new Intent(AfterSplash.this,Cooperative_Login.class );
+                    Intent intent=new Intent(AfterSplash.this, CooperativeLogin.class );
                     startActivity(intent);
                 }
                 else{

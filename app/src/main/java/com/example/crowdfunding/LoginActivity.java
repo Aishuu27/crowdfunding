@@ -20,7 +20,7 @@ public class LoginActivity extends AppCompatActivity {
         username=t1.getText().toString();
         password=t2.getText().toString();
         if((username.equals("8762216798")&& password.equals("abc"))||(username.equals("9740855985")&&password.equals("suraj123"))||(username.equals("8884110104")&& password.equals("sonu123"))||(username.equals("9449204019")&&password.equals("xyz"))){
-            Intent i= new Intent(LoginActivity.this, After_login.class);
+            Intent i= new Intent(LoginActivity.this, AfterLogin.class);
             startActivity(i);
         }
         else{

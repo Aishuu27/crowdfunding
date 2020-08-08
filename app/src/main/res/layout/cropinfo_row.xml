@@ -1,87 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:id="@+id/cropinfo_main"
-    android:layout_marginBottom="8dp"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools">
-
+    android:orientation="vertical"
+    android:id="@+id/cropinfo_main">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:cardCornerRadius="5dp"
-        android:layout_margin="8dp"
-        tools:ignore="MissingConstraints">
-
-        <androidx.constraintlayout.widget.ConstraintLayout
+        app:cardCornerRadius="8dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#e1ffb1" >
-
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/spinner_background"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
             <ImageView
                 android:id="@+id/image_crop"
-                android:layout_width="90dp"
-                android:layout_height="81dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginBottom="8dp"
-                android:src="@drawable/crop_detailss"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                tools:ignore="MissingConstraints,VectorDrawableCompat" />
-
-            <TextView
-                android:id="@+id/crop_name"
-                android:layout_width="wrap_content"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/crop_detailss" />
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="40dp"
-                android:layout_marginLeft="40dp"
-                android:layout_marginTop="16dp"
-                android:text="Name "
-                android:textSize="24sp"
-                android:textStyle="bold"
-                app:layout_constraintStart_toEndOf="@+id/image_crop"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/available_quantity"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Quantity Available"
-                android:textSize="24sp"
-                android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.703"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/crop_name"
-                app:layout_constraintVertical_bias="0.0" />
-
-            <TextView
-                android:id="@+id/crop_price"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="4dp"
-                android:text="Price"
-                android:textSize="24sp"
-                android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.445"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/available_quantity"
-                app:layout_constraintVertical_bias="0.0" />
-
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/crop_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name "
+                    android:fontFamily="@font/cherry_cream_soda"
+                    android:textSize="20sp" />
+                <TextView
+                    android:id="@+id/available_quantity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Quantity Available"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/cherry_cream_soda"
+                    android:textSize="20sp" />
+                <TextView
+                    android:id="@+id/crop_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:text="Price"
+                    android:fontFamily="@font/cherry_cream_soda"
+                    android:layout_marginTop="20dp"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </LinearLayout>
     </androidx.cardview.widget.CardView>
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#F2F2F2"/>
+</LinearLayout>

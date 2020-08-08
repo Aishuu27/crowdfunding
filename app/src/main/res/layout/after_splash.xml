@@ -5,51 +5,76 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#cfff95"
     tools:context=".AfterSplash">
 
-    <Spinner
-        android:id="@+id/spinner1"
-        android:layout_width="200dp"
-        android:layout_height="40dp"
-        android:entries="@array/Role"
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.54"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.298"
-        tools:visibility="visible" />
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="#f0f4c3"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
 
-    <Spinner
-        android:id="@+id/spinner2"
-        android:layout_width="200dp"
-        android:layout_height="40dp"
-        android:entries="@array/Language"
-        android:spinnerMode="dropdown"
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.54"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner1"
-        app:layout_constraintVertical_bias="0.2"
-        tools:visibility="visible" />
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:orientation="vertical">
+                <Spinner
+                    android:id="@+id/spinner1"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:entries="@array/Role"
+                    android:visibility="visible"
+                    android:background="@drawable/spinner_background"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="100dp"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    tools:visibility="visible" />
+                <Spinner
+                    android:id="@+id/spinner2"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:entries="@array/Language"
+                    android:spinnerMode="dropdown"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="60dp"
+                    android:visibility="visible"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:background="@drawable/spinner_background"
+                    tools:visibility="visible" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/farmer"
+                    android:layout_marginTop="30dp"/>
+            </LinearLayout>
+            <Button
+                android:id="@+id/button"
+                style="?android:borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/button_background"
+                android:text="Submit"
+                android:fontFamily="@font/aclonica"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="162dp"
-        android:layout_marginRight="162dp"
-        android:text="Submit"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.708"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner2"
-        app:layout_constraintVertical_bias="0.314" />
-
-
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>

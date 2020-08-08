@@ -2,12 +2,9 @@ package com.example.crowdfunding;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.Menu;
 
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
 
 import androidx.core.view.GravityCompat;
@@ -19,7 +16,7 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-public class After_login extends AppCompatActivity {
+public class AfterLogin extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
 
@@ -75,12 +72,12 @@ public class After_login extends AppCompatActivity {
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
-            Intent i= new Intent(After_login.this,AfterSplash.class);
+            Intent i= new Intent(AfterLogin.this,AfterSplash.class);
             startActivity(i);
         }
     }
     public void logout(View V){
-        Intent i= new Intent(After_login.this,AfterSplash.class);
+        Intent i= new Intent(AfterLogin.this,AfterSplash.class);
         startActivity(i);
     }
 

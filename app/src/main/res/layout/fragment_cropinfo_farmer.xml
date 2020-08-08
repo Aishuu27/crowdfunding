@@ -1,28 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".ui.cropinfofarmer.CropInfoFragment">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/scheme_view"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="32dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        android:layout_height="wrap_content"
         tools:ignore="MissingConstraints" />
-
     <Button
         android:id="@+id/sell_crops"
-        android:layout_width="400dp"
-        android:layout_height="50dp"
-        android:text="@string/farmer_cropinfo_button"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="5dp"
-        tools:layout_editor_absoluteY="2dp" />
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:fontFamily="@font/almendra_italic"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/farmer_cropinfo_button" />
+</LinearLayout>
+</ScrollView>

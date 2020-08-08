@@ -9,7 +9,7 @@ import android.os.Bundle;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class Framer_login extends AppCompatActivity {
+public class FramerLogin extends AppCompatActivity {
     EditText username,password;
     String farmer_username,farmer_password;
     Button button;
@@ -29,7 +29,7 @@ public class Framer_login extends AppCompatActivity {
                 farmer_username=username.getText().toString();
                 farmer_password=password.getText().toString();
                 if((farmer_username.equals("8762216798")&& farmer_password.equals("abcd"))||(farmer_username.equals("9740855985")&&farmer_password.equals("suraj123"))||(farmer_username.equals("8884110104")&&farmer_password.equals("sonu123"))){
-                    Intent i= new Intent(Framer_login.this, After_farmer_login.class);
+                    Intent i= new Intent(FramerLogin.this, AfterFarmerLogin.class);
                 startActivity(i);
                 }
                else{

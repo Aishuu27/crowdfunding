@@ -11,7 +11,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class Cooperative_schemes extends AppCompatActivity {
+public class CooperativeSchemes extends AppCompatActivity {
     Button scheme_button,apply_button;
     String crop_type;
     TextView kharif_text,Rabi_text;
