@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "659749662057",
-    "firebase_url": "https://crowdfunding-6560e.firebaseio.com",
-    "project_id": "crowdfunding-6560e",
-    "storage_bucket": "crowdfunding-6560e.appspot.com"
+    "project_number": "614498802695",
+    "firebase_url": "https://crowdfunding-27231.firebaseio.com",
+    "project_id": "crowdfunding-27231",
+    "storage_bucket": "crowdfunding-27231.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:659749662057:android:37c9f0b26db4d0ca23e1f8",
+        "mobilesdk_app_id": "1:614498802695:android:286d2788f44fa7f8f95ea2",
         "android_client_info": {
           "package_name": "com.example.crowdfunding"
         }
       },
       "oauth_client": [
         {
-          "client_id": "659749662057-7amr5getfmvnic1ppeiln0rq3hd8i2hm.apps.googleusercontent.com",
+          "client_id": "614498802695-vn52nf8s53d4p0r9nlb6i2g70l4rd4fj.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBuXwi8pATg7G2_zpLoM8P-TDzEfktZMho"
+          "current_key": "AIzaSyAyiED6oZGQGp5b6DlvKtu_L6WikjFIOCI"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "659749662057-7amr5getfmvnic1ppeiln0rq3hd8i2hm.apps.googleusercontent.com",
+              "client_id": "614498802695-vn52nf8s53d4p0r9nlb6i2g70l4rd4fj.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

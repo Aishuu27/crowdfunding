@@ -1,4 +1,4 @@
-package com.example.crowdfunding;
+package com.example.crowdfunding.cooperativeSociety;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,7 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.crowdfunding.cropdetails_cooperative.CropDetailsCooperative;
+import com.example.crowdfunding.R;
+import com.example.crowdfunding.register.RegisterActivity;
 import com.example.crowdfunding.farmer_details.Farmer_details;
 
 public class CooperativeSociety extends AppCompatActivity {
@@ -55,7 +56,7 @@ public class CooperativeSociety extends AppCompatActivity {
         register_farmer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent register_intent=new Intent(CooperativeSociety.this,RegisterActivity.class);
+                Intent register_intent=new Intent(CooperativeSociety.this, RegisterActivity.class);
                 startActivity(register_intent);
             }
         });

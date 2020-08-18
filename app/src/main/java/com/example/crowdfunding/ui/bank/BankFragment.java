@@ -47,7 +47,7 @@ public class BankFragment extends Fragment {
         addBankDetailsBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent blockchainIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.manifestias.com/2019/10/15/micro-irrigation-fund-mif/"));
+                Intent blockchainIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://localhost/FarmFund/code1/project_eth/node_modules/bank.html"));
                 startActivity(blockchainIntent);
 
 

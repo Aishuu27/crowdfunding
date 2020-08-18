@@ -12,6 +12,8 @@ import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import com.example.crowdfunding.cooperativeSociety.CooperativeLogin;
+
 import java.util.Locale;
 
 public class AfterSplash extends AppCompatActivity {

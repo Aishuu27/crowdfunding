@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".CooperativeSociety">
+    tools:context=".cooperativeSociety.CooperativeSociety">
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="70dp">

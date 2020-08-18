@@ -1,4 +1,4 @@
-package com.example.crowdfunding;
+package com.example.crowdfunding.register;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,6 +9,9 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import com.example.crowdfunding.LoginActivity;
+import com.example.crowdfunding.R;
 
 public class RegisterActivity extends AppCompatActivity {
 
@@ -38,7 +41,7 @@ public class RegisterActivity extends AppCompatActivity {
              if(entered_password.equals(reentered_password)){
                   //editor.commit();
                   Toast.makeText(getApplicationContext(),"Thank you for registering",Toast.LENGTH_LONG).show();
-                  Intent i =new Intent(RegisterActivity.this,LoginActivity.class);
+                  Intent i =new Intent(RegisterActivity.this, LoginActivity.class);
                   startActivity(i);
               }
               else{

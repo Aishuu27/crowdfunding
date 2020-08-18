@@ -5,6 +5,7 @@
     <uses-feature
         android:name="android.hardware.camera"
         android:required="true" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -13,24 +14,24 @@
         android:roundIcon="@mipmap/logo_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CooperativeLogin"></activity>
-        <activity android:name=".cropdetails_cooperative.CropDetailsCooperative" />
+        <activity android:name=".cooperativeSociety.CooperativeLogin"></activity>
+        <activity android:name=".cooperativeSociety.CropDetailsCooperative" />
         <activity android:name=".farmer_details.Farmer_details" />
-        <activity android:name=".CooperativeInsurance" />
-        <activity android:name=".CooperativeSchemes" />
+        <activity android:name=".cooperativeSociety.CooperativeInsurance" />
+        <activity android:name=".cooperativeSociety.CooperativeSchemes" />
         <activity android:name=".ui.cropinfofarmer.SellCropActivity" />
         <activity
             android:name=".AfterFarmerLogin"
             android:label="@string/title_activity_after_farmer_login"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".CooperativeSociety" />
+        <activity android:name=".cooperativeSociety.CooperativeSociety" />
         <activity android:name=".FramerLogin" />
         <activity android:name=".AfterSplash" />
         <activity
             android:name=".AfterLogin"
             android:label="@string/title_activity_after_login"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".RegisterActivity" />
+        <activity android:name=".register.RegisterActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".SplashScreen">
             <intent-filter>

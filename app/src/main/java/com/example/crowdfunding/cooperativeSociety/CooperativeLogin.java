@@ -1,4 +1,4 @@
-package com.example.crowdfunding;
+package com.example.crowdfunding.cooperativeSociety;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import com.example.crowdfunding.R;
 
 public class CooperativeLogin extends AppCompatActivity {
     EditText t1,t2;

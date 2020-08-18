@@ -1,4 +1,4 @@
-package com.example.crowdfunding;
+package com.example.crowdfunding.cooperativeSociety;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,6 +10,8 @@ import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.crowdfunding.R;
 
 public class CooperativeSchemes extends AppCompatActivity {
     Button scheme_button,apply_button;

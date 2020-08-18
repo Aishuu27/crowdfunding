@@ -6,6 +6,9 @@ import android.content.Intent;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import com.example.crowdfunding.register.RegisterActivity;
+
 public class LoginActivity extends AppCompatActivity {
     EditText t1,t2;
     private String username,password;
@@ -28,7 +31,7 @@ public class LoginActivity extends AppCompatActivity {
         }
    }
     public void register(View v){
-        Intent i1=new Intent(LoginActivity.this,RegisterActivity.class);
+        Intent i1=new Intent(LoginActivity.this, RegisterActivity.class);
         startActivity(i1);
     }
 }

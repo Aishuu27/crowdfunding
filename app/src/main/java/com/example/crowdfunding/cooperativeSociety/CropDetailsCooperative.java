@@ -1,4 +1,4 @@
-package com.example.crowdfunding.cropdetails_cooperative;
+package com.example.crowdfunding.cooperativeSociety;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;

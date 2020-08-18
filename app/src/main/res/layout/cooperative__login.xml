@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:id="@+id/user_login"
     android:orientation="vertical"
-    tools:context=".CooperativeLogin">
+    tools:context=".cooperativeSociety.CooperativeLogin">
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="70dp"

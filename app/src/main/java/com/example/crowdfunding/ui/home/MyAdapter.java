@@ -51,7 +51,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
         holder.read_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(c, "Beginning game " , Toast.LENGTH_SHORT);
+                //Toast.makeText(c, "Calli " , Toast.LENGTH_SHORT);
                 String parse_url=url[position];
                 Intent i=new Intent(Intent.ACTION_VIEW);
                 i.setData(Uri.parse(parse_url));
