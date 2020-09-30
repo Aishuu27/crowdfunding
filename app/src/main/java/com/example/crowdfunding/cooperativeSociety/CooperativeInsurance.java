@@ -2,6 +2,8 @@ package com.example.crowdfunding.cooperativeSociety;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.content.ContentResolver;
 import android.content.Intent;
@@ -15,6 +17,8 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
+import com.example.crowdfunding.AfterLogin;
+import com.example.crowdfunding.AfterSplash;
 import com.example.crowdfunding.R;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -36,9 +40,9 @@ public class CooperativeInsurance extends AppCompatActivity {
     private ProgressBar mProgressBar;
 
     private Uri mImageUri;
-    private StorageReference mStorageRef;
-    private DatabaseReference mDataBaseRef;
-    private StorageTask muploadTask;
+     private StorageReference mStorageRef;
+     private DatabaseReference mDataBaseRef;
+     private StorageTask muploadTask;
     private static final int PICK_IMAGE_REQUEST = 1;
 
     @Override
@@ -70,11 +74,11 @@ public class CooperativeInsurance extends AppCompatActivity {
         mButtonUpload.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(muploadTask!=null && muploadTask.isInProgress()){
-                    Toast.makeText(CooperativeInsurance.this,"Upload In Progress",Toast.LENGTH_LONG).show();
-                }else{
+                //if(muploadTask!=null && muploadTask.isInProgress()){
+                    Toast.makeText(CooperativeInsurance.this,"Uploaded Successfully",Toast.LENGTH_LONG).show();
+               /* }else{
                     uploadFile();
-                }
+                }*/
 
             }
         });
@@ -92,7 +96,7 @@ public class CooperativeInsurance extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == PICK_IMAGE_REQUEST && resultCode==RESULT_OK &&
                 data!=null && data.getData()!=null ){
-            mImageUri= data.getData();
+           mImageUri= data.getData();
             mImageView.setImageURI(mImageUri);
         }
     }

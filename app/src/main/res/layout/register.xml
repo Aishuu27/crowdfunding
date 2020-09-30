@@ -122,6 +122,11 @@
                     android:layout_weight="1"
                     android:hint="Enter Adress"
                     android:inputType="textPostalAddress" />
+                <TextView
+                    android:id="@+id/dummy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""/>
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>

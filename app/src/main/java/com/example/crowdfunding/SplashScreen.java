@@ -3,6 +3,10 @@ import android.content.Intent;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.os.Handler;
+
+import com.example.crowdfunding.cooperativeSociety.CooperativeSociety;
+import com.example.crowdfunding.register.ShowFarmerDetails;
+
 public class SplashScreen extends AppCompatActivity {
     private static int SPLASH_TIME_OUT=5000;
     @Override

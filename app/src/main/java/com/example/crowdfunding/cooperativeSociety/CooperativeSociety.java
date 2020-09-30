@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.crowdfunding.AfterSplash;
 import com.example.crowdfunding.R;
 import com.example.crowdfunding.register.RegisterActivity;
 import com.example.crowdfunding.farmer_details.Farmer_details;
@@ -60,5 +61,11 @@ public class CooperativeSociety extends AppCompatActivity {
                 startActivity(register_intent);
             }
         });
+    }
+    @Override
+    public void onBackPressed() {
+        Intent i= new Intent(CooperativeSociety.this, AfterSplash.class);
+        startActivity(i);
+
     }
 }

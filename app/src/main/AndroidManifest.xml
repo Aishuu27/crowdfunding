@@ -5,6 +5,7 @@
     <uses-feature
         android:name="android.hardware.camera"
         android:required="true" />
+
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -14,7 +15,10 @@
         android:roundIcon="@mipmap/logo_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".cooperativeSociety.CooperativeLogin"></activity>
+        <activity android:name=".register.ShowFarmerDetails">
+
+        </activity>
+        <activity android:name=".cooperativeSociety.CooperativeLogin" />
         <activity android:name=".cooperativeSociety.CropDetailsCooperative" />
         <activity android:name=".farmer_details.Farmer_details" />
         <activity android:name=".cooperativeSociety.CooperativeInsurance" />
@@ -40,8 +44,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
     </application>
 
 </manifest>

@@ -2,6 +2,7 @@ package com.example.crowdfunding.cooperativeSociety;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -11,6 +12,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.crowdfunding.AfterSplash;
 import com.example.crowdfunding.R;
 
 public class CooperativeSchemes extends AppCompatActivity {
@@ -70,4 +72,5 @@ public class CooperativeSchemes extends AppCompatActivity {
             }
         });
     }
+
 }
